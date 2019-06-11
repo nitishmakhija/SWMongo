@@ -1,0 +1,258 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "IndexKey"
+- "IndexTrieNode"
+- "=="
+provides-nominal:
+- "4BSON8IndexKeyV"
+- "4BSON13IndexTrieNodeC"
+provides-member:
+- ["4BSON8IndexKeyV", ""]
+- ["4BSON13IndexTrieNodeC", ""]
+depends-top-level:
+- !private "!="
+- !private "&+"
+- !private "+="
+- "=="
+- "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- "Dictionary"
+- !private "FloatLiteralType"
+- "Hashable"
+- "Hasher"
+- "IndexKey"
+- "IndexTrieNode"
+- "Int"
+- !private "IntegerLiteralType"
+- "KittenBytes"
+- "String"
+- !private "isKnownUniquelyReferenced"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "makeIterator"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "makeIterator"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "makeIterator"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["Sl", "count"]
+- ["Sl", "init"]
+- !private ["Sl", "makeIterator"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "bytes"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "makeIterator"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "makeIterator"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "makeIterator"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "utf8"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "count"]
+- ["Se", "init"]
+- !private ["Se", "makeIterator"]
+- !private ["Se", "subscript"]
+- ["SD", "init"]
+- !private ["SD", "subscript"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "count"]
+- ["SE", "init"]
+- !private ["SE", "makeIterator"]
+- !private ["SE", "subscript"]
+- !private ["SS10FoundationE8EncodingV", "utf8"]
+- !private ["SQ", "String"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "bytes"]
+- !private ["SQ", "count"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "key"]
+- !private ["SQ", "makeIterator"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "utf8"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "makeIterator"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", "String"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "bytes"]
+- !private ["SH", "count"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "key"]
+- !private ["SH", "makeIterator"]
+- !private ["SH", "subscript"]
+- !private ["SH", "utf8"]
+- !private ["s6HasherV", "combine"]
+- ["4BSON8IndexKeyV", "=="]
+- ["4BSON8IndexKeyV", "Bool"]
+- ["4BSON8IndexKeyV", "Hasher"]
+- ["4BSON8IndexKeyV", "IndexKey"]
+- ["4BSON8IndexKeyV", "KittenBytes"]
+- ["4BSON8IndexKeyV", "String"]
+- ["4BSON8IndexKeyV", "deinit"]
+- ["4BSON8IndexKeyV", "hash"]
+- ["4BSON8IndexKeyV", "hashValue"]
+- ["4BSON8IndexKeyV", "init"]
+- ["4BSON8IndexKeyV", "key"]
+- ["4BSON8IndexKeyV", "s"]
+- ["4BSON13IndexTrieNodeC", "Bool"]
+- ["4BSON13IndexTrieNodeC", "Dictionary"]
+- ["4BSON13IndexTrieNodeC", "IndexKey"]
+- ["4BSON13IndexTrieNodeC", "IndexTrieNode"]
+- ["4BSON13IndexTrieNodeC", "Int"]
+- ["4BSON13IndexTrieNodeC", "copy"]
+- ["4BSON13IndexTrieNodeC", "deinit"]
+- ["4BSON13IndexTrieNodeC", "fullyIndexed"]
+- ["4BSON13IndexTrieNodeC", "init"]
+- !private ["4BSON13IndexTrieNodeC", "isKnownUniquelyReferenced"]
+- ["4BSON13IndexTrieNodeC", "recursivelyIndexed"]
+- ["4BSON13IndexTrieNodeC", "storage"]
+- ["4BSON13IndexTrieNodeC", "subscript"]
+- ["4BSON13IndexTrieNodeC", "value"]
+- !private ["s16IndexingIteratorV", "next"]
+- !private ["St", "next"]
+- !private ["4BSON11KittenBytesV", "bytes"]
+- ["4BSON11KittenBytesV", "deinit"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "count"]
+- !private ["SM", "makeIterator"]
+- !private ["4BSON9PrimitiveP", "_getBuiltinLogicValue"]
+- !private ["4BSON9PrimitiveP", "bytes"]
+- !private ["4BSON9PrimitiveP", "count"]
+- ["4BSON9PrimitiveP", "init"]
+- !private ["4BSON9PrimitiveP", "makeIterator"]
+- !private ["4BSON9PrimitiveP", "subscript"]
+- !private ["Sk", "count"]
+- !private ["Sk", "makeIterator"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "makeIterator"]
+- !private ["SY", "utf8"]
+- !private ["ST", "count"]
+- ["ST", "init"]
+- !private ["ST", "makeIterator"]
+- !private ["ST", "next"]
+- !private ["ST", "subscript"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["4BSON23SubscriptExpressionTypeP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["10Foundation13_CFBridgeableP", "_getBuiltinLogicValue"]
+- !private ["10Foundation13_CFBridgeableP", "count"]
+- ["10Foundation13_CFBridgeableP", "init"]
+- !private ["10Foundation13_CFBridgeableP", "makeIterator"]
+- !private ["10Foundation13_CFBridgeableP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "makeIterator"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "makeIterator"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation13_NSBridgeableP", "count"]
+- ["10Foundation13_NSBridgeableP", "init"]
+- !private ["10Foundation13_NSBridgeableP", "makeIterator"]
+- !private ["10Foundation13_NSBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "makeIterator"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SD"
+- "SE"
+- !private "SS10FoundationE8EncodingV"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "4BSON8IndexKeyV"
+- "4BSON13IndexTrieNodeC"
+- !private "s16IndexingIteratorV"
+- !private "St"
+- "4BSON11KittenBytesV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- "4BSON9PrimitiveP"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- "ST"
+- !private "SS"
+- !private "Sy"
+- !private "4BSON23SubscriptExpressionTypeP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "10Foundation13_CFBridgeableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation13_NSBridgeableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/perfectbuild/.build/checkouts/Perfect-COpenSSL-Linux.git--1861912504770719538/Sources/COpenSSL/module.modulemap"
+interface-hash: "2d52d858475cfaf83a1dbc3b4bc2dc49"

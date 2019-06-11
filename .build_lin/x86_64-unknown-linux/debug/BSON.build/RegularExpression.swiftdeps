@@ -1,0 +1,83 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RegularExpression"
+provides-nominal:
+- "4BSON17RegularExpressionV"
+provides-member:
+- ["4BSON17RegularExpressionV", ""]
+- ["10Foundation19NSRegularExpressionC", ""]
+- ["10Foundation19NSRegularExpressionC", "init"]
+depends-top-level:
+- "Array"
+- "AssignmentPrecedence"
+- "NSRegularExpression"
+- "RegularExpression"
+- "String"
+depends-member:
+- ["s28CustomDebugStringConvertibleP", "Options"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "options"]
+- !private ["s28CustomDebugStringConvertibleP", "pattern"]
+- ["s23CustomStringConvertibleP", "Options"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "options"]
+- !private ["s23CustomStringConvertibleP", "pattern"]
+- ["SQ", "Options"]
+- !private ["SQ", "init"]
+- !private ["SQ", "options"]
+- !private ["SQ", "pattern"]
+- ["SH", "Options"]
+- !private ["SH", "init"]
+- !private ["SH", "options"]
+- !private ["SH", "pattern"]
+- ["10Foundation8NSCodingP", "Options"]
+- !private ["10Foundation8NSCodingP", "init"]
+- !private ["10Foundation8NSCodingP", "options"]
+- !private ["10Foundation8NSCodingP", "pattern"]
+- ["10Foundation9NSCopyingP", "Options"]
+- !private ["10Foundation9NSCopyingP", "init"]
+- !private ["10Foundation9NSCopyingP", "options"]
+- !private ["10Foundation9NSCopyingP", "pattern"]
+- ["10Foundation8NSObjectC", "Options"]
+- ["10Foundation8NSObjectC", "RegularExpression"]
+- ["10Foundation8NSObjectC", "init"]
+- !private ["10Foundation8NSObjectC", "options"]
+- !private ["10Foundation8NSObjectC", "pattern"]
+- ["10Foundation16NSObjectProtocolP", "Options"]
+- !private ["10Foundation16NSObjectProtocolP", "init"]
+- !private ["10Foundation16NSObjectProtocolP", "options"]
+- !private ["10Foundation16NSObjectProtocolP", "pattern"]
+- ["10Foundation19NSRegularExpressionC", "Options"]
+- ["10Foundation19NSRegularExpressionC", "RegularExpression"]
+- ["10Foundation19NSRegularExpressionC", "init"]
+- !private ["10Foundation19NSRegularExpressionC", "options"]
+- !private ["10Foundation19NSRegularExpressionC", "pattern"]
+- !private ["4BSON9PrimitiveP", "options"]
+- !private ["4BSON9PrimitiveP", "pattern"]
+- ["4BSON17RegularExpressionV", "NSRegularExpression"]
+- ["4BSON17RegularExpressionV", "String"]
+- ["4BSON17RegularExpressionV", "init"]
+- ["4BSON17RegularExpressionV", "options"]
+- ["4BSON17RegularExpressionV", "pattern"]
+depends-nominal:
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "10Foundation8NSCodingP"
+- "10Foundation9NSCopyingP"
+- "10Foundation8NSObjectC"
+- "10Foundation16NSObjectProtocolP"
+- "10Foundation19NSRegularExpressionC"
+- !private "4BSON9PrimitiveP"
+- "4BSON17RegularExpressionV"
+depends-dynamic-lookup:
+depends-external:
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/perfectbuild/.build/checkouts/Perfect-COpenSSL-Linux.git--1861912504770719538/Sources/COpenSSL/module.modulemap"
+interface-hash: "59be658f3a4d9aa7bcf233043cffc0e0"

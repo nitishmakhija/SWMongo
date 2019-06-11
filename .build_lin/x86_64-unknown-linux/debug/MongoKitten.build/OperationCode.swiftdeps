@@ -1,0 +1,105 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OperationCode"
+provides-nominal:
+- "11MongoKitten13OperationCodeO"
+provides-member:
+- ["11MongoKitten13OperationCodeO", ""]
+depends-top-level:
+- "=="
+- "FloatLiteralType"
+- "Int32"
+- "IntegerLiteralType"
+- "OperationCode"
+- !private "~="
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "rawValue"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "_getBuiltinLogicValue"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "rawValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["11MongoKitten13OperationCodeO", "Delete"]
+- ["11MongoKitten13OperationCodeO", "GetMore"]
+- ["11MongoKitten13OperationCodeO", "Insert"]
+- ["11MongoKitten13OperationCodeO", "KillCursors"]
+- ["11MongoKitten13OperationCodeO", "Query"]
+- ["11MongoKitten13OperationCodeO", "RawValue"]
+- ["11MongoKitten13OperationCodeO", "Reply"]
+- ["11MongoKitten13OperationCodeO", "Update"]
+- ["11MongoKitten13OperationCodeO", "_Default_RawValue"]
+- ["11MongoKitten13OperationCodeO", "deinit"]
+- ["11MongoKitten13OperationCodeO", "hash"]
+- ["11MongoKitten13OperationCodeO", "hashValue"]
+- ["11MongoKitten13OperationCodeO", "init"]
+- ["11MongoKitten13OperationCodeO", "rawValue"]
+- !private ["4BSON9PrimitiveP", "_getBuiltinLogicValue"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["7Cheetah5ValueP", "_getBuiltinLogicValue"]
+- !private ["10Foundation13_CFBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "11MongoKitten23ExpressionRepresentableP"
+- "SH"
+- !private "s6HasherV"
+- !private "s25LosslessStringConvertibleP"
+- "11MongoKitten13OperationCodeO"
+- !private "4BSON9PrimitiveP"
+- "SY"
+- !private "7Cheetah5ValueP"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/ExtendedJSON.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/GeoJSON.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/Cheetah.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/MongoSocket.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/perfectbuild/.build/checkouts/Perfect-COpenSSL-Linux.git--1861912504770719538/Sources/COpenSSL/module.modulemap"
+interface-hash: "b9c62131d77d60d5d05e0f800b36b34a"

@@ -1,0 +1,11 @@
+version: "Swift version 4.2.1 (swift-4.2.1-RELEASE)"
+options: "dac8a63f549b576fd6ebda8ff105b49c"
+build_time: [1560261537, 275856800]
+inputs:
+  "/perfectbuild/Sources/Cheetah/Array.swift": [1508702904, 0]
+  "/perfectbuild/Sources/Cheetah/Codable.swift": [1560166852, 0]
+  "/perfectbuild/Sources/Cheetah/Helpers.swift": [1508702904, 0]
+  "/perfectbuild/Sources/Cheetah/InternalHelpers.swift": [1508702904, 0]
+  "/perfectbuild/Sources/Cheetah/Object.swift": [1508702904, 0]
+  "/perfectbuild/Sources/Cheetah/Parser.swift": [1560166852, 0]
+  "/perfectbuild/Sources/Cheetah/Value.swift": [1560166852, 0]

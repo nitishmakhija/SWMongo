@@ -1,0 +1,6 @@
+version: "Swift version 4.2.1 (swift-4.2.1-RELEASE)"
+options: "b1abab650287b05bb4e0acb8312cb314"
+build_time: [1560261532, 635835900]
+inputs:
+  "/perfectbuild/Sources/MongoSocket/MongoTCP.swift": [1522011078, 0]
+  "/perfectbuild/Sources/MongoSocket/Socket.swift": [1560256484, 0]

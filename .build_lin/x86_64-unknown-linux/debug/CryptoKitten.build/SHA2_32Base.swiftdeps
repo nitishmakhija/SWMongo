@@ -1,0 +1,224 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SHA2_32"
+provides-nominal:
+- "12CryptoKitten7SHA2_32P"
+provides-member:
+- ["12CryptoKitten7SHA2_32P", ""]
+- ["12CryptoKitten7SHA2_32P", "update"]
+depends-top-level:
+- !private "&"
+- !private "&+"
+- !private "&-"
+- !private "-"
+- !private "..."
+- !private "<<"
+- !private ">>"
+- !private "Array"
+- "AssignmentPrecedence"
+- "FloatLiteralType"
+- "Hash"
+- "IntegerLiteralType"
+- "SHA2_32"
+- "UInt32"
+- "UInt8"
+- "UnsafePointer"
+- !private "^"
+- !private "k"
+- !private "rightRotate"
+- !private "|"
+- !private "~"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "reserveCapacity"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "reserveCapacity"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["SK", "append"]
+- !private ["SK", "reserveCapacity"]
+- !private ["SK", "subscript"]
+- !private ["Sz", "bigEndian"]
+- !private ["s7CVarArgP", "bigEndian"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "withMemoryRebound"]
+- !private ["Sl", "append"]
+- !private ["Sl", "reserveCapacity"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "bigEndian"]
+- !private ["SL", "subscript"]
+- !private ["SL", "withMemoryRebound"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "reserveCapacity"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "withMemoryRebound"]
+- !private ["s29CustomPlaygroundQuickLookableP", "bigEndian"]
+- !private ["s29CustomPlaygroundQuickLookableP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "withMemoryRebound"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "bigEndian"]
+- !private ["s17CustomReflectableP", "reserveCapacity"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "withMemoryRebound"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "bigEndian"]
+- !private ["s23CustomStringConvertibleP", "reserveCapacity"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "append"]
+- !private ["Se", "bigEndian"]
+- !private ["Se", "reserveCapacity"]
+- !private ["Se", "subscript"]
+- !private ["SE", "append"]
+- !private ["SE", "bigEndian"]
+- !private ["SE", "reserveCapacity"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "append"]
+- !private ["SQ", "bigEndian"]
+- !private ["SQ", "reserveCapacity"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "withMemoryRebound"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "reserveCapacity"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByIntegerLiteralP", "bigEndian"]
+- !private ["s17FixedWidthIntegerP", "bigEndian"]
+- ["12CryptoKitten4HashP", "UInt32"]
+- ["12CryptoKitten4HashP", "UInt8"]
+- ["12CryptoKitten4HashP", "UnsafePointer"]
+- ["12CryptoKitten4HashP", ""]
+- !private ["12CryptoKitten4HashP", "a"]
+- !private ["12CryptoKitten4HashP", "b"]
+- !private ["12CryptoKitten4HashP", "c"]
+- !private ["12CryptoKitten4HashP", "d"]
+- !private ["12CryptoKitten4HashP", "e"]
+- !private ["12CryptoKitten4HashP", "f"]
+- !private ["12CryptoKitten4HashP", "g"]
+- !private ["12CryptoKitten4HashP", "h"]
+- !private ["12CryptoKitten4HashP", "h0"]
+- !private ["12CryptoKitten4HashP", "h1"]
+- !private ["12CryptoKitten4HashP", "h2"]
+- !private ["12CryptoKitten4HashP", "h3"]
+- !private ["12CryptoKitten4HashP", "h4"]
+- !private ["12CryptoKitten4HashP", "h5"]
+- !private ["12CryptoKitten4HashP", "h6"]
+- !private ["12CryptoKitten4HashP", "h7"]
+- !private ["12CryptoKitten4HashP", "k"]
+- !private ["12CryptoKitten4HashP", "rightRotate"]
+- !private ["SH", "append"]
+- !private ["SH", "bigEndian"]
+- !private ["SH", "reserveCapacity"]
+- !private ["SH", "subscript"]
+- !private ["SH", "withMemoryRebound"]
+- !private ["s25LosslessStringConvertibleP", "bigEndian"]
+- !private ["SM", "append"]
+- !private ["SM", "reserveCapacity"]
+- !private ["SM", "subscript"]
+- !private ["Sj", "bigEndian"]
+- !private ["Sk", "append"]
+- !private ["Sk", "reserveCapacity"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "reserveCapacity"]
+- !private ["Sm", "subscript"]
+- ["12CryptoKitten7SHA2_32P", "UInt32"]
+- ["12CryptoKitten7SHA2_32P", "UInt8"]
+- ["12CryptoKitten7SHA2_32P", "UnsafePointer"]
+- ["12CryptoKitten7SHA2_32P", "a"]
+- ["12CryptoKitten7SHA2_32P", "b"]
+- ["12CryptoKitten7SHA2_32P", "c"]
+- ["12CryptoKitten7SHA2_32P", "d"]
+- ["12CryptoKitten7SHA2_32P", "e"]
+- ["12CryptoKitten7SHA2_32P", "f"]
+- ["12CryptoKitten7SHA2_32P", "g"]
+- ["12CryptoKitten7SHA2_32P", "h"]
+- ["12CryptoKitten7SHA2_32P", "h0"]
+- ["12CryptoKitten7SHA2_32P", "h1"]
+- ["12CryptoKitten7SHA2_32P", "h2"]
+- ["12CryptoKitten7SHA2_32P", "h3"]
+- ["12CryptoKitten7SHA2_32P", "h4"]
+- ["12CryptoKitten7SHA2_32P", "h5"]
+- ["12CryptoKitten7SHA2_32P", "h6"]
+- ["12CryptoKitten7SHA2_32P", "h7"]
+- !private ["12CryptoKitten7SHA2_32P", "k"]
+- !private ["12CryptoKitten7SHA2_32P", "rightRotate"]
+- ["12CryptoKitten7SHA2_32P", "update"]
+- !private ["ST", "append"]
+- !private ["ST", "reserveCapacity"]
+- !private ["ST", "subscript"]
+- !private ["Sx", "bigEndian"]
+- !private ["Sx", "subscript"]
+- !private ["Sx", "withMemoryRebound"]
+- !private ["s6UInt32V", "bigEndian"]
+- !private ["SP", "subscript"]
+- !private ["SP", "withMemoryRebound"]
+- !private ["SU", "bigEndian"]
+- !private ["s18_BitwiseOperationsP", "bigEndian"]
+- !private ["10Foundation13_CFBridgeableP", "append"]
+- !private ["10Foundation13_CFBridgeableP", "reserveCapacity"]
+- !private ["10Foundation13_CFBridgeableP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "reserveCapacity"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "bigEndian"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "bigEndian"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reserveCapacity"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation13_NSBridgeableP", "append"]
+- !private ["10Foundation13_NSBridgeableP", "reserveCapacity"]
+- !private ["10Foundation13_NSBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "bigEndian"]
+- !private ["s21_ObjectiveCBridgeableP", "reserveCapacity"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s8_PointerP", "subscript"]
+- !private ["s8_PointerP", "withMemoryRebound"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sz"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "12CryptoKitten4HashP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "Sj"
+- !private "Sk"
+- !private "Sm"
+- "12CryptoKitten7SHA2_32P"
+- !private "ST"
+- !private "Sx"
+- !private "s6UInt32V"
+- !private "SP"
+- !private "SU"
+- !private "s18_BitwiseOperationsP"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation13_NSBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+depends-dynamic-lookup:
+depends-external:
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/perfectbuild/.build/checkouts/Perfect-COpenSSL-Linux.git--1861912504770719538/Sources/COpenSSL/module.modulemap"
+interface-hash: "387edd29476acb64a6dd26e6d5bed357"

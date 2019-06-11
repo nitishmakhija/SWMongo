@@ -1,0 +1,52 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SSLSettings"
+provides-nominal:
+- "11MongoKitten11SSLSettingsV"
+provides-member:
+- ["11MongoKitten11SSLSettingsV", ""]
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "ExpressibleByBooleanLiteral"
+- "SSLSettings"
+- "String"
+depends-member:
+- ["s27ExpressibleByBooleanLiteralP", "BooleanLiteralType"]
+- !private ["s27ExpressibleByBooleanLiteralP", "CAFilePath"]
+- ["s27ExpressibleByBooleanLiteralP", ""]
+- ["s27ExpressibleByBooleanLiteralP", "_Default_BooleanLiteralType"]
+- !private ["s27ExpressibleByBooleanLiteralP", "enabled"]
+- ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "invalidCertificateAllowed"]
+- !private ["s27ExpressibleByBooleanLiteralP", "invalidHostNameAllowed"]
+- ["11MongoKitten11SSLSettingsV", "Bool"]
+- ["11MongoKitten11SSLSettingsV", "BooleanLiteralType"]
+- ["11MongoKitten11SSLSettingsV", "CAFilePath"]
+- ["11MongoKitten11SSLSettingsV", "String"]
+- ["11MongoKitten11SSLSettingsV", "_Default_BooleanLiteralType"]
+- ["11MongoKitten11SSLSettingsV", "deinit"]
+- ["11MongoKitten11SSLSettingsV", "enabled"]
+- ["11MongoKitten11SSLSettingsV", "init"]
+- ["11MongoKitten11SSLSettingsV", "invalidCertificateAllowed"]
+- ["11MongoKitten11SSLSettingsV", "invalidHostNameAllowed"]
+depends-nominal:
+- "s27ExpressibleByBooleanLiteralP"
+- "11MongoKitten11SSLSettingsV"
+depends-dynamic-lookup:
+depends-external:
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/ExtendedJSON.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/GeoJSON.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/Cheetah.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/MongoSocket.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/perfectbuild/.build/checkouts/Perfect-COpenSSL-Linux.git--1861912504770719538/Sources/COpenSSL/module.modulemap"
+interface-hash: "32e2e34a0e3207385ccf6e441e68bedc"

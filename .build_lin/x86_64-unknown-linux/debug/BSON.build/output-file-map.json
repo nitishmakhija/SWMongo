@@ -1,0 +1,131 @@
+{
+  "": {
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/master.swiftdeps"
+  },
+  "/perfectbuild/Sources/BSON/BSONPrimitive.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/BSONPrimitive.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/BSONPrimitive.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/BSONPrimitive~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/BSONPrimitive.swiftdeps"
+  },
+  "/perfectbuild/Sources/BSON/Codable.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Codable.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Codable.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Codable~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Codable.swiftdeps"
+  },
+  "/perfectbuild/Sources/BSON/Decimal.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Decimal.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Decimal.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Decimal~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Decimal.swiftdeps"
+  },
+  "/perfectbuild/Sources/BSON/DeserializationHelpers.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/DeserializationHelpers.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/DeserializationHelpers.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/DeserializationHelpers~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/DeserializationHelpers.swiftdeps"
+  },
+  "/perfectbuild/Sources/BSON/Document+Conversion.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+Conversion.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+Conversion.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+Conversion~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+Conversion.swiftdeps"
+  },
+  "/perfectbuild/Sources/BSON/Document+Flattening.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+Flattening.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+Flattening.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+Flattening~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+Flattening.swiftdeps"
+  },
+  "/perfectbuild/Sources/BSON/Document+Operators.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+Operators.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+Operators.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+Operators~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+Operators.swiftdeps"
+  },
+  "/perfectbuild/Sources/BSON/Document+ParsingSupport.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+ParsingSupport.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+ParsingSupport.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+ParsingSupport~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+ParsingSupport.swiftdeps"
+  },
+  "/perfectbuild/Sources/BSON/Document+Subscripts.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+Subscripts.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+Subscripts.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+Subscripts~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+Subscripts.swiftdeps"
+  },
+  "/perfectbuild/Sources/BSON/Document+Validation.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+Validation.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+Validation.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+Validation~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document+Validation.swiftdeps"
+  },
+  "/perfectbuild/Sources/BSON/Document.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Document.swiftdeps"
+  },
+  "/perfectbuild/Sources/BSON/DocumentSequence.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/DocumentSequence.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/DocumentSequence.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/DocumentSequence~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/DocumentSequence.swiftdeps"
+  },
+  "/perfectbuild/Sources/BSON/EmbeddedDocuments.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/EmbeddedDocuments.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/EmbeddedDocuments.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/EmbeddedDocuments~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/EmbeddedDocuments.swiftdeps"
+  },
+  "/perfectbuild/Sources/BSON/Error.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Error.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Error.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Error~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Error.swiftdeps"
+  },
+  "/perfectbuild/Sources/BSON/Helpers.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Helpers.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Helpers.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Helpers~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Helpers.swiftdeps"
+  },
+  "/perfectbuild/Sources/BSON/Index.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Index.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Index.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Index~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Index.swiftdeps"
+  },
+  "/perfectbuild/Sources/BSON/Interpreting.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Interpreting.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Interpreting.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Interpreting~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Interpreting.swiftdeps"
+  },
+  "/perfectbuild/Sources/BSON/KittenBytes.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/KittenBytes.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/KittenBytes.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/KittenBytes~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/KittenBytes.swiftdeps"
+  },
+  "/perfectbuild/Sources/BSON/ObjectId.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/ObjectId.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/ObjectId.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/ObjectId~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/ObjectId.swiftdeps"
+  },
+  "/perfectbuild/Sources/BSON/Optional+BSON.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Optional+BSON.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Optional+BSON.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Optional+BSON~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/Optional+BSON.swiftdeps"
+  },
+  "/perfectbuild/Sources/BSON/RegularExpression.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/RegularExpression.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/RegularExpression.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/RegularExpression~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.build/RegularExpression.swiftdeps"
+  }
+}

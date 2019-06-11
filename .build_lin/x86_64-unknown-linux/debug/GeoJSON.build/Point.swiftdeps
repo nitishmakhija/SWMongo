@@ -1,0 +1,212 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Point"
+- "=="
+provides-nominal:
+- "7GeoJSON5PointV"
+provides-member:
+- ["7GeoJSON5PointV", ""]
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "BSON"
+- "Bool"
+- !private "Dictionary"
+- "GeoJsonObjectType"
+- "Geometry"
+- "Hashable"
+- "Hasher"
+- "Point"
+- "Position"
+- !private "StringLiteralType"
+- "ValueConvertible"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- ["SQ", ""]
+- !private ["SQ", "coordinate"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "makeBinary"]
+- ["SQ", "makePrimitive"]
+- ["SQ", "point"]
+- !private ["SQ", "rawValue"]
+- ["SQ", "type"]
+- ["SQ", "typeIdentifier"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["7GeoJSON0A14JsonObjectTypeO", "deinit"]
+- ["7GeoJSON0A14JsonObjectTypeO", "point"]
+- !private ["7GeoJSON0A14JsonObjectTypeO", "rawValue"]
+- ["7GeoJSON8GeometryP", ""]
+- !private ["7GeoJSON8GeometryP", "coordinate"]
+- ["7GeoJSON8GeometryP", "hash"]
+- ["7GeoJSON8GeometryP", "hashValue"]
+- ["7GeoJSON8GeometryP", "makeBinary"]
+- ["7GeoJSON8GeometryP", "makePrimitive"]
+- ["7GeoJSON8GeometryP", "type"]
+- ["7GeoJSON8GeometryP", "typeIdentifier"]
+- ["SH", ""]
+- !private ["SH", "coordinate"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "makeBinary"]
+- ["SH", "makePrimitive"]
+- ["SH", "point"]
+- !private ["SH", "rawValue"]
+- ["SH", "type"]
+- ["SH", "typeIdentifier"]
+- !private ["s6HasherV", "combine"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["7GeoJSON5PointV", "=="]
+- ["7GeoJSON5PointV", "BSON"]
+- ["7GeoJSON5PointV", "Bool"]
+- ["7GeoJSON5PointV", "GeoJsonObjectType"]
+- ["7GeoJSON5PointV", "Hasher"]
+- ["7GeoJSON5PointV", "Point"]
+- ["7GeoJSON5PointV", "Position"]
+- ["7GeoJSON5PointV", "coordinate"]
+- ["7GeoJSON5PointV", "deinit"]
+- ["7GeoJSON5PointV", "hash"]
+- ["7GeoJSON5PointV", "hashValue"]
+- ["7GeoJSON5PointV", "init"]
+- ["7GeoJSON5PointV", "makeBinary"]
+- ["7GeoJSON5PointV", "makePrimitive"]
+- ["7GeoJSON5PointV", "type"]
+- ["7GeoJSON5PointV", "typeIdentifier"]
+- ["7GeoJSON8PositionV", "deinit"]
+- ["4BSON9PrimitiveP", ""]
+- !private ["4BSON9PrimitiveP", "coordinate"]
+- ["4BSON9PrimitiveP", "hash"]
+- ["4BSON9PrimitiveP", "hashValue"]
+- !private ["4BSON9PrimitiveP", "init"]
+- !private ["4BSON9PrimitiveP", "init"]
+- ["4BSON9PrimitiveP", "makeBinary"]
+- ["4BSON9PrimitiveP", "makePrimitive"]
+- ["4BSON9PrimitiveP", "point"]
+- !private ["4BSON9PrimitiveP", "rawValue"]
+- ["4BSON9PrimitiveP", "type"]
+- ["4BSON9PrimitiveP", "typeIdentifier"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- ["SY", "point"]
+- !private ["SY", "rawValue"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["4BSON23SubscriptExpressionTypeP", "init"]
+- !private ["4BSON23SubscriptExpressionTypeP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["7GeoJSON16ValueConvertibleP", ""]
+- !private ["7GeoJSON16ValueConvertibleP", "coordinate"]
+- ["7GeoJSON16ValueConvertibleP", "hash"]
+- ["7GeoJSON16ValueConvertibleP", "hashValue"]
+- ["7GeoJSON16ValueConvertibleP", "makeBinary"]
+- ["7GeoJSON16ValueConvertibleP", "makePrimitive"]
+- ["7GeoJSON16ValueConvertibleP", "point"]
+- !private ["7GeoJSON16ValueConvertibleP", "rawValue"]
+- ["7GeoJSON16ValueConvertibleP", "type"]
+- ["7GeoJSON16ValueConvertibleP", "typeIdentifier"]
+- !private ["10Foundation13_CFBridgeableP", "init"]
+- !private ["10Foundation13_CFBridgeableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation13_NSBridgeableP", "init"]
+- !private ["10Foundation13_NSBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "7GeoJSON0A14JsonObjectTypeO"
+- "7GeoJSON8GeometryP"
+- "SH"
+- !private "s6HasherV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- "7GeoJSON5PointV"
+- "7GeoJSON8PositionV"
+- "4BSON9PrimitiveP"
+- !private "Sm"
+- "SY"
+- !private "ST"
+- !private "SS"
+- !private "Sy"
+- !private "4BSON23SubscriptExpressionTypeP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "7GeoJSON16ValueConvertibleP"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation13_NSBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/perfectbuild/.build/checkouts/Perfect-COpenSSL-Linux.git--1861912504770719538/Sources/COpenSSL/module.modulemap"
+interface-hash: "2726a979e4e48b9b4f28b0e7b53ac4f5"

@@ -1,0 +1,366 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WriteConcern"
+- "ReadConcern"
+- "Collation"
+provides-nominal:
+- "11MongoKitten12WriteConcernO"
+- "11MongoKitten11ReadConcernO"
+- "11MongoKitten9CollationV"
+- "11MongoKitten9CollationV19IgnorableCharactersO"
+- "11MongoKitten9CollationV9AlternateO"
+- "11MongoKitten9CollationV8StrengthO"
+provides-member:
+- ["11MongoKitten12WriteConcernO", ""]
+- ["11MongoKitten11ReadConcernO", ""]
+- ["11MongoKitten9CollationV", ""]
+- ["11MongoKitten9CollationV19IgnorableCharactersO", ""]
+- ["11MongoKitten9CollationV9AlternateO", ""]
+- ["11MongoKitten9CollationV8StrengthO", ""]
+depends-top-level:
+- "=="
+- !private "Array"
+- "AssignmentPrecedence"
+- "BSON"
+- "Bool"
+- "BooleanLiteralType"
+- "CastingPrecedence"
+- "Collation"
+- !private "Dictionary"
+- !private "Document"
+- "FloatLiteralType"
+- "Int"
+- "Int32"
+- "IntegerLiteralType"
+- "ReadConcern"
+- "String"
+- "StringLiteralType"
+- !private "UnicodeScalarType"
+- "ValueConvertible"
+- "WriteConcern"
+- !private "_findStringSwitchCase"
+- !private "~="
+depends-member:
+- ["11MongoKitten9CollationV9AlternateO", "BSON"]
+- ["11MongoKitten9CollationV9AlternateO", "RawValue"]
+- ["11MongoKitten9CollationV9AlternateO", "_Default_RawValue"]
+- !private ["11MongoKitten9CollationV9AlternateO", "_findStringSwitchCase"]
+- ["11MongoKitten9CollationV9AlternateO", "deinit"]
+- ["11MongoKitten9CollationV9AlternateO", "hash"]
+- ["11MongoKitten9CollationV9AlternateO", "hashValue"]
+- ["11MongoKitten9CollationV9AlternateO", "init"]
+- ["11MongoKitten9CollationV9AlternateO", "makeBinary"]
+- ["11MongoKitten9CollationV9AlternateO", "makePrimitive"]
+- ["11MongoKitten9CollationV9AlternateO", "nonIgnorable"]
+- ["11MongoKitten9CollationV9AlternateO", "rawValue"]
+- ["11MongoKitten9CollationV9AlternateO", "shifted"]
+- ["11MongoKitten9CollationV9AlternateO", "typeIdentifier"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["11MongoKitten9CollationV", "Alternate"]
+- ["11MongoKitten9CollationV", "BSON"]
+- ["11MongoKitten9CollationV", "Bool"]
+- !private ["11MongoKitten9CollationV", "Document"]
+- ["11MongoKitten9CollationV", "IgnorableCharacters"]
+- ["11MongoKitten9CollationV", "Int32"]
+- ["11MongoKitten9CollationV", "Strength"]
+- ["11MongoKitten9CollationV", "String"]
+- ["11MongoKitten9CollationV", "ValueConvertible"]
+- !private ["11MongoKitten9CollationV", "_findStringSwitchCase"]
+- ["11MongoKitten9CollationV", "alternate"]
+- ["11MongoKitten9CollationV", "backwards"]
+- ["11MongoKitten9CollationV", "caseLevel"]
+- ["11MongoKitten9CollationV", "deinit"]
+- ["11MongoKitten9CollationV", "init"]
+- ["11MongoKitten9CollationV", "locale"]
+- ["11MongoKitten9CollationV", "makeBinary"]
+- ["11MongoKitten9CollationV", "makePrimitive"]
+- ["11MongoKitten9CollationV", "maxVariable"]
+- ["11MongoKitten9CollationV", "normalization"]
+- ["11MongoKitten9CollationV", "numericOrdering"]
+- ["11MongoKitten9CollationV", "strength"]
+- ["11MongoKitten9CollationV", "typeIdentifier"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- ["SL", "init"]
+- ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SE", "init"]
+- ["SE", "init"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["SQ", "makeBinary"]
+- ["SQ", "makePrimitive"]
+- !private ["SQ", "nonIgnorable"]
+- ["SQ", "rawValue"]
+- ["SQ", "typeIdentifier"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "_getBuiltinLogicValue"]
+- ["11MongoKitten23ExpressionRepresentableP", "init"]
+- ["11MongoKitten23ExpressionRepresentableP", "init"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "init"]
+- ["SH", "makeBinary"]
+- ["SH", "makePrimitive"]
+- !private ["SH", "nonIgnorable"]
+- ["SH", "rawValue"]
+- ["SH", "typeIdentifier"]
+- !private ["s6HasherV", "combine"]
+- ["11MongoKitten9CollationV19IgnorableCharactersO", "BSON"]
+- ["11MongoKitten9CollationV19IgnorableCharactersO", "RawValue"]
+- ["11MongoKitten9CollationV19IgnorableCharactersO", "_Default_RawValue"]
+- !private ["11MongoKitten9CollationV19IgnorableCharactersO", "_findStringSwitchCase"]
+- ["11MongoKitten9CollationV19IgnorableCharactersO", "deinit"]
+- ["11MongoKitten9CollationV19IgnorableCharactersO", "hash"]
+- ["11MongoKitten9CollationV19IgnorableCharactersO", "hashValue"]
+- ["11MongoKitten9CollationV19IgnorableCharactersO", "init"]
+- ["11MongoKitten9CollationV19IgnorableCharactersO", "makeBinary"]
+- ["11MongoKitten9CollationV19IgnorableCharactersO", "makePrimitive"]
+- ["11MongoKitten9CollationV19IgnorableCharactersO", "punct"]
+- ["11MongoKitten9CollationV19IgnorableCharactersO", "rawValue"]
+- ["11MongoKitten9CollationV19IgnorableCharactersO", "space"]
+- ["11MongoKitten9CollationV19IgnorableCharactersO", "typeIdentifier"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- ["4BSON9PrimitiveP", "RawValue"]
+- ["4BSON9PrimitiveP", ""]
+- ["4BSON9PrimitiveP", "_Default_RawValue"]
+- !private ["4BSON9PrimitiveP", "_findStringSwitchCase"]
+- !private ["4BSON9PrimitiveP", "_getBuiltinLogicValue"]
+- !private ["4BSON9PrimitiveP", "alternate"]
+- !private ["4BSON9PrimitiveP", "backwards"]
+- !private ["4BSON9PrimitiveP", "caseLevel"]
+- ["4BSON9PrimitiveP", "custom"]
+- ["4BSON9PrimitiveP", "hash"]
+- ["4BSON9PrimitiveP", "hashValue"]
+- ["4BSON9PrimitiveP", "init"]
+- ["4BSON9PrimitiveP", "init"]
+- !private ["4BSON9PrimitiveP", "locale"]
+- ["4BSON9PrimitiveP", "makeBinary"]
+- ["4BSON9PrimitiveP", "makePrimitive"]
+- !private ["4BSON9PrimitiveP", "maxVariable"]
+- !private ["4BSON9PrimitiveP", "nonIgnorable"]
+- !private ["4BSON9PrimitiveP", "normalization"]
+- !private ["4BSON9PrimitiveP", "numericOrdering"]
+- ["4BSON9PrimitiveP", "rawValue"]
+- !private ["4BSON9PrimitiveP", "strength"]
+- ["4BSON9PrimitiveP", "typeIdentifier"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "makeBinary"]
+- ["SY", "makePrimitive"]
+- !private ["SY", "nonIgnorable"]
+- ["SY", "rawValue"]
+- ["SY", "typeIdentifier"]
+- ["11MongoKitten11ReadConcernO", "BSON"]
+- !private ["11MongoKitten11ReadConcernO", "Document"]
+- ["11MongoKitten11ReadConcernO", "RawValue"]
+- ["11MongoKitten11ReadConcernO", "_Default_RawValue"]
+- !private ["11MongoKitten11ReadConcernO", "_findStringSwitchCase"]
+- ["11MongoKitten11ReadConcernO", "deinit"]
+- ["11MongoKitten11ReadConcernO", "hash"]
+- ["11MongoKitten11ReadConcernO", "hashValue"]
+- ["11MongoKitten11ReadConcernO", "init"]
+- ["11MongoKitten11ReadConcernO", "linearizable"]
+- ["11MongoKitten11ReadConcernO", "local"]
+- ["11MongoKitten11ReadConcernO", "majority"]
+- ["11MongoKitten11ReadConcernO", "makeBinary"]
+- ["11MongoKitten11ReadConcernO", "makePrimitive"]
+- ["11MongoKitten11ReadConcernO", "rawValue"]
+- ["11MongoKitten11ReadConcernO", "typeIdentifier"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["11MongoKitten9CollationV8StrengthO", "BSON"]
+- ["11MongoKitten9CollationV8StrengthO", "RawValue"]
+- ["11MongoKitten9CollationV8StrengthO", "_Default_RawValue"]
+- ["11MongoKitten9CollationV8StrengthO", "deinit"]
+- ["11MongoKitten9CollationV8StrengthO", "hash"]
+- ["11MongoKitten9CollationV8StrengthO", "hashValue"]
+- ["11MongoKitten9CollationV8StrengthO", "identical"]
+- ["11MongoKitten9CollationV8StrengthO", "init"]
+- ["11MongoKitten9CollationV8StrengthO", "makeBinary"]
+- ["11MongoKitten9CollationV8StrengthO", "makePrimitive"]
+- ["11MongoKitten9CollationV8StrengthO", "primary"]
+- ["11MongoKitten9CollationV8StrengthO", "quaternary"]
+- ["11MongoKitten9CollationV8StrengthO", "rawValue"]
+- ["11MongoKitten9CollationV8StrengthO", "secondary"]
+- ["11MongoKitten9CollationV8StrengthO", "tertiary"]
+- ["11MongoKitten9CollationV8StrengthO", "typeIdentifier"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["4BSON23SubscriptExpressionTypeP", "init"]
+- ["4BSON23SubscriptExpressionTypeP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["7Cheetah5ValueP", "_getBuiltinLogicValue"]
+- ["7Cheetah5ValueP", "init"]
+- ["7Cheetah5ValueP", "init"]
+- ["11MongoKitten16ValueConvertibleP", "RawValue"]
+- ["11MongoKitten16ValueConvertibleP", ""]
+- ["11MongoKitten16ValueConvertibleP", "_Default_RawValue"]
+- !private ["11MongoKitten16ValueConvertibleP", "_findStringSwitchCase"]
+- !private ["11MongoKitten16ValueConvertibleP", "alternate"]
+- !private ["11MongoKitten16ValueConvertibleP", "backwards"]
+- !private ["11MongoKitten16ValueConvertibleP", "caseLevel"]
+- ["11MongoKitten16ValueConvertibleP", "custom"]
+- ["11MongoKitten16ValueConvertibleP", "hash"]
+- ["11MongoKitten16ValueConvertibleP", "hashValue"]
+- ["11MongoKitten16ValueConvertibleP", "init"]
+- !private ["11MongoKitten16ValueConvertibleP", "locale"]
+- ["11MongoKitten16ValueConvertibleP", "makeBinary"]
+- ["11MongoKitten16ValueConvertibleP", "makePrimitive"]
+- !private ["11MongoKitten16ValueConvertibleP", "maxVariable"]
+- !private ["11MongoKitten16ValueConvertibleP", "nonIgnorable"]
+- !private ["11MongoKitten16ValueConvertibleP", "normalization"]
+- !private ["11MongoKitten16ValueConvertibleP", "numericOrdering"]
+- ["11MongoKitten16ValueConvertibleP", "rawValue"]
+- !private ["11MongoKitten16ValueConvertibleP", "strength"]
+- ["11MongoKitten16ValueConvertibleP", "typeIdentifier"]
+- ["11MongoKitten12WriteConcernO", "BSON"]
+- ["11MongoKitten12WriteConcernO", "Bool"]
+- !private ["11MongoKitten12WriteConcernO", "Document"]
+- ["11MongoKitten12WriteConcernO", "Int"]
+- ["11MongoKitten12WriteConcernO", "custom"]
+- ["11MongoKitten12WriteConcernO", "deinit"]
+- ["11MongoKitten12WriteConcernO", "makeBinary"]
+- ["11MongoKitten12WriteConcernO", "makePrimitive"]
+- ["11MongoKitten12WriteConcernO", "typeIdentifier"]
+- !private ["10Foundation13_CFBridgeableP", "_getBuiltinLogicValue"]
+- ["10Foundation13_CFBridgeableP", "init"]
+- ["10Foundation13_CFBridgeableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["10Foundation13_NSBridgeableP", "init"]
+- ["10Foundation13_NSBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "11MongoKitten9CollationV9AlternateO"
+- "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- "11MongoKitten9CollationV"
+- "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "11MongoKitten23ExpressionRepresentableP"
+- "SH"
+- !private "s6HasherV"
+- "11MongoKitten9CollationV19IgnorableCharactersO"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "4BSON9PrimitiveP"
+- "Sm"
+- "SY"
+- "11MongoKitten11ReadConcernO"
+- "ST"
+- !private "s12StaticStringV"
+- "11MongoKitten9CollationV8StrengthO"
+- "SS"
+- "Sy"
+- "4BSON23SubscriptExpressionTypeP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "7Cheetah5ValueP"
+- "11MongoKitten16ValueConvertibleP"
+- "11MongoKitten12WriteConcernO"
+- "10Foundation13_CFBridgeableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "10Foundation13_NSBridgeableP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/ExtendedJSON.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/GeoJSON.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/Cheetah.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/MongoSocket.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/perfectbuild/.build/checkouts/Perfect-COpenSSL-Linux.git--1861912504770719538/Sources/COpenSSL/module.modulemap"
+interface-hash: "46348d26adc11e6d846396bcbf92a7de"

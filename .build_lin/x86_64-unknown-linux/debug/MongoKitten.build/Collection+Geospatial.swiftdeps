@@ -1,0 +1,317 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["11MongoKitten10CollectionC", ""]
+- ["11MongoKitten10CollectionC", "geoNear"]
+depends-top-level:
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "Collection"
+- !private "Dictionary"
+- "Document"
+- !private "FloatLiteralType"
+- "GeoNearOptions"
+- !private "Int"
+- !private "IntegerLiteralType"
+- !private "MongoError"
+- "ReadConcern"
+- !private "StringLiteralType"
+- !private "firstDocument"
+- !private "log"
+depends-member:
+- !private ["Sa", "first"]
+- !private ["s13ArrayProtocolP", "first"]
+- !private ["11MongoKitten17BSONBytesProtocolP", "init"]
+- !private ["4BSON17BSONBytesProtocolP", "init"]
+- !private ["SK", "first"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sz", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- ["11MongoKitten10CollectionC", "Document"]
+- ["11MongoKitten10CollectionC", "GeoNearOptions"]
+- !private ["11MongoKitten10CollectionC", "Int"]
+- !private ["11MongoKitten10CollectionC", "MongoError"]
+- ["11MongoKitten10CollectionC", "ReadConcern"]
+- !private ["11MongoKitten10CollectionC", "database"]
+- !private ["11MongoKitten10CollectionC", "deinit"]
+- !private ["Sl", "first"]
+- !private ["11MongoKitten10CollectionC", "firstDocument"]
+- ["11MongoKitten10CollectionC", "geoNear"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["11MongoKitten10CollectionC", "log"]
+- !private ["11MongoKitten10CollectionC", "name"]
+- !private ["11MongoKitten10CollectionC", "readConcern"]
+- !private ["Sl", "subscript"]
+- !private ["11MongoKitten19CollectionQueryableP", "Int"]
+- !private ["11MongoKitten19CollectionQueryableP", "MongoError"]
+- !private ["11MongoKitten19CollectionQueryableP", "database"]
+- !private ["11MongoKitten19CollectionQueryableP", "firstDocument"]
+- !private ["11MongoKitten19CollectionQueryableP", "log"]
+- !private ["11MongoKitten19CollectionQueryableP", "name"]
+- !private ["11MongoKitten19CollectionQueryableP", "readConcern"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Int"]
+- !private ["s23CustomStringConvertibleP", "MongoError"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "database"]
+- !private ["s23CustomStringConvertibleP", "execute"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "firstDocument"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "log"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "readConcern"]
+- !private ["11MongoKitten8DatabaseC", "execute"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["4BSON8DocumentV", "subscript"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "first"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "subscript"]
+- !private ["s5ErrorP", "invalidResponse"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "_getBuiltinLogicValue"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "init"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "init"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "subscript"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["11MongoKitten14GeoNearOptionsV", "distanceField"]
+- !private ["11MongoKitten14GeoNearOptionsV", "distanceMultiplier"]
+- !private ["11MongoKitten14GeoNearOptionsV", "includeLocs"]
+- !private ["11MongoKitten14GeoNearOptionsV", "limit"]
+- !private ["11MongoKitten14GeoNearOptionsV", "maxDistance"]
+- !private ["11MongoKitten14GeoNearOptionsV", "minDistance"]
+- !private ["11MongoKitten14GeoNearOptionsV", "near"]
+- !private ["11MongoKitten14GeoNearOptionsV", "query"]
+- !private ["11MongoKitten14GeoNearOptionsV", "spherical"]
+- !private ["11MongoKitten14GeoNearOptionsV", "uniqueDocs"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "first"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["Si", "init"]
+- !private ["11MongoKitten6LoggerP", "error"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["11MongoKitten0A5ErrorO", "deinit"]
+- !private ["11MongoKitten0A5ErrorO", "invalidResponse"]
+- !private ["SM", "first"]
+- !private ["Sj", "init"]
+- !private ["4BSON9PrimitiveP", "_getBuiltinLogicValue"]
+- !private ["4BSON9PrimitiveP", "distanceField"]
+- !private ["4BSON9PrimitiveP", "distanceMultiplier"]
+- !private ["4BSON9PrimitiveP", "first"]
+- !private ["4BSON9PrimitiveP", "includeLocs"]
+- !private ["4BSON9PrimitiveP", "init"]
+- !private ["4BSON9PrimitiveP", "init"]
+- !private ["4BSON9PrimitiveP", "limit"]
+- !private ["4BSON9PrimitiveP", "maxDistance"]
+- !private ["4BSON9PrimitiveP", "minDistance"]
+- !private ["4BSON9PrimitiveP", "near"]
+- !private ["4BSON9PrimitiveP", "query"]
+- !private ["4BSON9PrimitiveP", "spherical"]
+- !private ["4BSON9PrimitiveP", "subscript"]
+- !private ["4BSON9PrimitiveP", "uniqueDocs"]
+- !private ["11MongoKitten5QueryV", "deinit"]
+- !private ["Sk", "first"]
+- !private ["Sm", "first"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["11MongoKitten11ReadConcernO", "deinit"]
+- !private ["ST", "execute"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["11MongoKitten11ServerReplyV", "documents"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["4BSON23SubscriptExpressionTypeP", "init"]
+- !private ["4BSON23SubscriptExpressionTypeP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["7Cheetah5ValueP", "_getBuiltinLogicValue"]
+- !private ["7Cheetah5ValueP", "first"]
+- !private ["7Cheetah5ValueP", "init"]
+- !private ["7Cheetah5ValueP", "init"]
+- !private ["11MongoKitten16ValueConvertibleP", "distanceField"]
+- !private ["11MongoKitten16ValueConvertibleP", "distanceMultiplier"]
+- !private ["11MongoKitten16ValueConvertibleP", "includeLocs"]
+- !private ["11MongoKitten16ValueConvertibleP", "limit"]
+- !private ["11MongoKitten16ValueConvertibleP", "maxDistance"]
+- !private ["11MongoKitten16ValueConvertibleP", "minDistance"]
+- !private ["11MongoKitten16ValueConvertibleP", "near"]
+- !private ["11MongoKitten16ValueConvertibleP", "query"]
+- !private ["11MongoKitten16ValueConvertibleP", "spherical"]
+- !private ["11MongoKitten16ValueConvertibleP", "uniqueDocs"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["10Foundation13_CFBridgeableP", "_getBuiltinLogicValue"]
+- !private ["10Foundation13_CFBridgeableP", "first"]
+- !private ["10Foundation13_CFBridgeableP", "init"]
+- !private ["10Foundation13_CFBridgeableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation13_NSBridgeableP", "first"]
+- !private ["10Foundation13_NSBridgeableP", "init"]
+- !private ["10Foundation13_NSBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "11MongoKitten17BSONBytesProtocolP"
+- !private "4BSON17BSONBytesProtocolP"
+- !private "SK"
+- !private "Sz"
+- !private "Sb"
+- !private "s7CVarArgP"
+- "11MongoKitten10CollectionC"
+- !private "Sl"
+- "11MongoKitten10CollectionC"
+- !private "Sl"
+- !private "11MongoKitten10CollectionC"
+- !private "Sl"
+- !private "11MongoKitten19CollectionQueryableP"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "11MongoKitten8DatabaseC"
+- !private "Se"
+- !private "4BSON8DocumentV"
+- !private "SE"
+- !private "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "11MongoKitten23ExpressionRepresentableP"
+- !private "s17FixedWidthIntegerP"
+- !private "11MongoKitten14GeoNearOptionsV"
+- !private "SH"
+- !private "Si"
+- !private "11MongoKitten6LoggerP"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "11MongoKitten0A5ErrorO"
+- !private "SM"
+- !private "Sj"
+- !private "4BSON9PrimitiveP"
+- !private "11MongoKitten5QueryV"
+- !private "Sk"
+- !private "Sm"
+- !private "11MongoKitten11ReadConcernO"
+- !private "ST"
+- !private "11MongoKitten11ServerReplyV"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "4BSON23SubscriptExpressionTypeP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "7Cheetah5ValueP"
+- !private "11MongoKitten16ValueConvertibleP"
+- !private "s18_BitwiseOperationsP"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation13_NSBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/ExtendedJSON.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/GeoJSON.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/Cheetah.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/MongoSocket.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/perfectbuild/.build/checkouts/Perfect-COpenSSL-Linux.git--1861912504770719538/Sources/COpenSSL/module.modulemap"
+interface-hash: "7da7a11016a6ef3845d52853764fd263"

@@ -1,0 +1,515 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BSONBytesProtocol"
+provides-nominal:
+- "11MongoKitten17BSONBytesProtocolP"
+- "Si"
+- "s5Int64V"
+- "s5Int32V"
+- "s5Int16V"
+- "s4Int8V"
+- "Su"
+- "s6UInt64V"
+- "s6UInt32V"
+- "s6UInt16V"
+- "s5UInt8V"
+- "Sd"
+provides-member:
+- ["11MongoKitten17BSONBytesProtocolP", ""]
+- ["Si", ""]
+- ["s5Int64V", ""]
+- ["s5Int32V", ""]
+- ["s5Int16V", ""]
+- ["s4Int8V", ""]
+- ["Su", ""]
+- ["s6UInt64V", ""]
+- ["s6UInt32V", ""]
+- ["s6UInt16V", ""]
+- ["s5UInt8V", ""]
+- ["Sd", ""]
+depends-top-level:
+- !private "&"
+- !private ">>"
+- !private "Array"
+- "BSONBytesProtocol"
+- "Byte"
+- "Bytes"
+- "Double"
+- !private "FloatLiteralType"
+- "Int"
+- "Int16"
+- "Int32"
+- "Int64"
+- "Int8"
+- !private "IntegerLiteralType"
+- !private "MemoryLayout"
+- "UInt"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- !private "UnsafeBufferPointer"
+- !private "withUnsafePointer"
+depends-member:
+- !private ["Sa", "init"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["11MongoKitten17BSONBytesProtocolP", "Array"]
+- !private ["4BSON17BSONBytesProtocolP", "Array"]
+- !private ["11MongoKitten17BSONBytesProtocolP", "Byte"]
+- !private ["4BSON17BSONBytesProtocolP", "Byte"]
+- ["11MongoKitten17BSONBytesProtocolP", "Bytes"]
+- !private ["11MongoKitten17BSONBytesProtocolP", "MemoryLayout"]
+- !private ["4BSON17BSONBytesProtocolP", "MemoryLayout"]
+- !private ["11MongoKitten17BSONBytesProtocolP", "UnsafeBufferPointer"]
+- !private ["4BSON17BSONBytesProtocolP", "UnsafeBufferPointer"]
+- ["11MongoKitten17BSONBytesProtocolP", ""]
+- !private ["11MongoKitten17BSONBytesProtocolP", "init"]
+- !private ["4BSON17BSONBytesProtocolP", "init"]
+- !private ["11MongoKitten17BSONBytesProtocolP", "littleEndian"]
+- !private ["4BSON17BSONBytesProtocolP", "littleEndian"]
+- ["11MongoKitten17BSONBytesProtocolP", "makeBytes"]
+- ["4BSON17BSONBytesProtocolP", "makeBytes"]
+- !private ["11MongoKitten17BSONBytesProtocolP", "withUnsafePointer"]
+- !private ["4BSON17BSONBytesProtocolP", "withUnsafePointer"]
+- !private ["SK", "init"]
+- !private ["SB", "Array"]
+- !private ["SB", "Byte"]
+- !private ["SB", "MemoryLayout"]
+- !private ["SB", "UnsafeBufferPointer"]
+- ["SB", "makeBytes"]
+- !private ["SB", "withUnsafePointer"]
+- !private ["Sz", "Array"]
+- !private ["Sz", "Byte"]
+- !private ["Sz", "MemoryLayout"]
+- !private ["Sz", "UnsafeBufferPointer"]
+- !private ["Sz", "init"]
+- !private ["Sz", "littleEndian"]
+- ["Sz", "makeBytes"]
+- !private ["Sz", "withUnsafePointer"]
+- !private ["s7CVarArgP", "Array"]
+- !private ["s7CVarArgP", "Byte"]
+- !private ["s7CVarArgP", "MemoryLayout"]
+- !private ["s7CVarArgP", "UnsafeBufferPointer"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "littleEndian"]
+- ["s7CVarArgP", "makeBytes"]
+- !private ["s7CVarArgP", "withMemoryRebound"]
+- !private ["s7CVarArgP", "withUnsafePointer"]
+- !private ["Sl", "init"]
+- !private ["SL", "Array"]
+- !private ["SL", "Byte"]
+- !private ["SL", "MemoryLayout"]
+- !private ["SL", "UnsafeBufferPointer"]
+- !private ["SL", "init"]
+- !private ["SL", "littleEndian"]
+- ["SL", "makeBytes"]
+- !private ["SL", "withMemoryRebound"]
+- !private ["SL", "withUnsafePointer"]
+- !private ["s28CustomDebugStringConvertibleP", "Array"]
+- !private ["s28CustomDebugStringConvertibleP", "Byte"]
+- !private ["s28CustomDebugStringConvertibleP", "MemoryLayout"]
+- !private ["s28CustomDebugStringConvertibleP", "UnsafeBufferPointer"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "makeBytes"]
+- !private ["s28CustomDebugStringConvertibleP", "withMemoryRebound"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafePointer"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Array"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Byte"]
+- !private ["s29CustomPlaygroundQuickLookableP", "MemoryLayout"]
+- !private ["s29CustomPlaygroundQuickLookableP", "UnsafeBufferPointer"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "littleEndian"]
+- ["s29CustomPlaygroundQuickLookableP", "makeBytes"]
+- !private ["s29CustomPlaygroundQuickLookableP", "withMemoryRebound"]
+- !private ["s29CustomPlaygroundQuickLookableP", "withUnsafePointer"]
+- !private ["s17CustomReflectableP", "Array"]
+- !private ["s17CustomReflectableP", "Byte"]
+- !private ["s17CustomReflectableP", "MemoryLayout"]
+- !private ["s17CustomReflectableP", "UnsafeBufferPointer"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "littleEndian"]
+- ["s17CustomReflectableP", "makeBytes"]
+- !private ["s17CustomReflectableP", "withMemoryRebound"]
+- !private ["s17CustomReflectableP", "withUnsafePointer"]
+- !private ["s23CustomStringConvertibleP", "Array"]
+- !private ["s23CustomStringConvertibleP", "Byte"]
+- !private ["s23CustomStringConvertibleP", "MemoryLayout"]
+- !private ["s23CustomStringConvertibleP", "UnsafeBufferPointer"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "littleEndian"]
+- ["s23CustomStringConvertibleP", "makeBytes"]
+- !private ["s23CustomStringConvertibleP", "withUnsafePointer"]
+- !private ["Se", "Array"]
+- !private ["Se", "Byte"]
+- !private ["Se", "MemoryLayout"]
+- !private ["Se", "UnsafeBufferPointer"]
+- !private ["Se", "init"]
+- !private ["Se", "littleEndian"]
+- ["Se", "makeBytes"]
+- !private ["Se", "withUnsafePointer"]
+- !private ["Sd", "Array"]
+- !private ["Sd", "Byte"]
+- ["Sd", "Bytes"]
+- !private ["Sd", "Double"]
+- !private ["Sd", "MemoryLayout"]
+- !private ["Sd", "UnsafeBufferPointer"]
+- ["Sd", "deinit"]
+- ["Sd", "makeBytes"]
+- !private ["Sd", "withUnsafePointer"]
+- !private ["SE", "Array"]
+- !private ["SE", "Byte"]
+- !private ["SE", "MemoryLayout"]
+- !private ["SE", "UnsafeBufferPointer"]
+- !private ["SE", "init"]
+- !private ["SE", "littleEndian"]
+- ["SE", "makeBytes"]
+- !private ["SE", "withUnsafePointer"]
+- !private ["SQ", "Array"]
+- !private ["SQ", "Byte"]
+- !private ["SQ", "MemoryLayout"]
+- !private ["SQ", "UnsafeBufferPointer"]
+- !private ["SQ", "init"]
+- !private ["SQ", "littleEndian"]
+- ["SQ", "makeBytes"]
+- !private ["SQ", "withMemoryRebound"]
+- !private ["SQ", "withUnsafePointer"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "Array"]
+- !private ["s25ExpressibleByFloatLiteralP", "Byte"]
+- !private ["s25ExpressibleByFloatLiteralP", "MemoryLayout"]
+- !private ["s25ExpressibleByFloatLiteralP", "UnsafeBufferPointer"]
+- ["s25ExpressibleByFloatLiteralP", "makeBytes"]
+- !private ["s25ExpressibleByFloatLiteralP", "withUnsafePointer"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Array"]
+- !private ["s27ExpressibleByIntegerLiteralP", "Byte"]
+- !private ["s27ExpressibleByIntegerLiteralP", "MemoryLayout"]
+- !private ["s27ExpressibleByIntegerLiteralP", "UnsafeBufferPointer"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "littleEndian"]
+- ["s27ExpressibleByIntegerLiteralP", "makeBytes"]
+- !private ["s27ExpressibleByIntegerLiteralP", "withUnsafePointer"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "Array"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "Byte"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "MemoryLayout"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "UnsafeBufferPointer"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "littleEndian"]
+- ["11MongoKitten23ExpressionRepresentableP", "makeBytes"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "withUnsafePointer"]
+- !private ["s17FixedWidthIntegerP", "Array"]
+- !private ["s17FixedWidthIntegerP", "Byte"]
+- !private ["s17FixedWidthIntegerP", "MemoryLayout"]
+- !private ["s17FixedWidthIntegerP", "UnsafeBufferPointer"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "littleEndian"]
+- ["s17FixedWidthIntegerP", "makeBytes"]
+- !private ["s17FixedWidthIntegerP", "withUnsafePointer"]
+- !private ["SF", "Array"]
+- !private ["SF", "Byte"]
+- !private ["SF", "MemoryLayout"]
+- !private ["SF", "UnsafeBufferPointer"]
+- ["SF", "makeBytes"]
+- !private ["SF", "withUnsafePointer"]
+- !private ["SH", "Array"]
+- !private ["SH", "Byte"]
+- !private ["SH", "MemoryLayout"]
+- !private ["SH", "UnsafeBufferPointer"]
+- !private ["SH", "init"]
+- !private ["SH", "littleEndian"]
+- ["SH", "makeBytes"]
+- !private ["SH", "withMemoryRebound"]
+- !private ["SH", "withUnsafePointer"]
+- !private ["Si", "Array"]
+- !private ["Si", "Byte"]
+- ["Si", "Bytes"]
+- !private ["Si", "Int"]
+- !private ["Si", "MemoryLayout"]
+- !private ["Si", "UnsafeBufferPointer"]
+- ["Si", "deinit"]
+- !private ["Si", "littleEndian"]
+- ["Si", "makeBytes"]
+- !private ["Si", "withUnsafePointer"]
+- !private ["s5Int16V", "Byte"]
+- ["s5Int16V", "Bytes"]
+- ["s5Int16V", "deinit"]
+- !private ["s5Int16V", "littleEndian"]
+- ["s5Int16V", "makeBytes"]
+- !private ["s5Int32V", "Byte"]
+- ["s5Int32V", "Bytes"]
+- ["s5Int32V", "deinit"]
+- !private ["s5Int32V", "littleEndian"]
+- ["s5Int32V", "makeBytes"]
+- !private ["s5Int64V", "Byte"]
+- ["s5Int64V", "Bytes"]
+- ["s5Int64V", "deinit"]
+- !private ["s5Int64V", "littleEndian"]
+- ["s5Int64V", "makeBytes"]
+- !private ["s4Int8V", "Byte"]
+- ["s4Int8V", "Bytes"]
+- ["s4Int8V", "deinit"]
+- ["s4Int8V", "makeBytes"]
+- !private ["s25LosslessStringConvertibleP", "Array"]
+- !private ["s25LosslessStringConvertibleP", "Byte"]
+- !private ["s25LosslessStringConvertibleP", "MemoryLayout"]
+- !private ["s25LosslessStringConvertibleP", "UnsafeBufferPointer"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "littleEndian"]
+- ["s25LosslessStringConvertibleP", "makeBytes"]
+- !private ["s25LosslessStringConvertibleP", "withUnsafePointer"]
+- !private ["s12MemoryLayoutO", "size"]
+- !private ["s10MirrorPathP", "Array"]
+- !private ["s10MirrorPathP", "Byte"]
+- !private ["s10MirrorPathP", "MemoryLayout"]
+- !private ["s10MirrorPathP", "UnsafeBufferPointer"]
+- !private ["s10MirrorPathP", "littleEndian"]
+- ["s10MirrorPathP", "makeBytes"]
+- !private ["s10MirrorPathP", "withUnsafePointer"]
+- !private ["SM", "init"]
+- !private ["Sj", "Array"]
+- !private ["Sj", "Byte"]
+- !private ["Sj", "MemoryLayout"]
+- !private ["Sj", "UnsafeBufferPointer"]
+- !private ["Sj", "init"]
+- !private ["Sj", "littleEndian"]
+- ["Sj", "makeBytes"]
+- !private ["Sj", "withUnsafePointer"]
+- !private ["4BSON9PrimitiveP", "Array"]
+- !private ["4BSON9PrimitiveP", "Byte"]
+- !private ["4BSON9PrimitiveP", "MemoryLayout"]
+- !private ["4BSON9PrimitiveP", "UnsafeBufferPointer"]
+- !private ["4BSON9PrimitiveP", "init"]
+- !private ["4BSON9PrimitiveP", "littleEndian"]
+- ["4BSON9PrimitiveP", "makeBytes"]
+- !private ["4BSON9PrimitiveP", "withUnsafePointer"]
+- !private ["Sk", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "init"]
+- !private ["SZ", "Array"]
+- !private ["SZ", "Byte"]
+- !private ["SZ", "MemoryLayout"]
+- !private ["SZ", "UnsafeBufferPointer"]
+- !private ["SZ", "littleEndian"]
+- ["SZ", "makeBytes"]
+- !private ["SZ", "withUnsafePointer"]
+- !private ["s13SignedNumericP", "Array"]
+- !private ["s13SignedNumericP", "Byte"]
+- !private ["s13SignedNumericP", "MemoryLayout"]
+- !private ["s13SignedNumericP", "UnsafeBufferPointer"]
+- !private ["s13SignedNumericP", "littleEndian"]
+- ["s13SignedNumericP", "makeBytes"]
+- !private ["s13SignedNumericP", "withUnsafePointer"]
+- !private ["Sx", "Array"]
+- !private ["Sx", "Byte"]
+- !private ["Sx", "MemoryLayout"]
+- !private ["Sx", "UnsafeBufferPointer"]
+- !private ["Sx", "init"]
+- !private ["Sx", "littleEndian"]
+- ["Sx", "makeBytes"]
+- !private ["Sx", "withMemoryRebound"]
+- !private ["Sx", "withUnsafePointer"]
+- !private ["4BSON23SubscriptExpressionTypeP", "Array"]
+- !private ["4BSON23SubscriptExpressionTypeP", "Byte"]
+- !private ["4BSON23SubscriptExpressionTypeP", "MemoryLayout"]
+- !private ["4BSON23SubscriptExpressionTypeP", "UnsafeBufferPointer"]
+- !private ["4BSON23SubscriptExpressionTypeP", "littleEndian"]
+- ["4BSON23SubscriptExpressionTypeP", "makeBytes"]
+- !private ["4BSON23SubscriptExpressionTypeP", "withUnsafePointer"]
+- !private ["Su", "Array"]
+- !private ["Su", "Byte"]
+- ["Su", "Bytes"]
+- !private ["Su", "MemoryLayout"]
+- !private ["Su", "UInt"]
+- !private ["Su", "UnsafeBufferPointer"]
+- ["Su", "deinit"]
+- !private ["Su", "littleEndian"]
+- ["Su", "makeBytes"]
+- !private ["Su", "withUnsafePointer"]
+- !private ["s6UInt16V", "Byte"]
+- ["s6UInt16V", "Bytes"]
+- ["s6UInt16V", "deinit"]
+- !private ["s6UInt16V", "littleEndian"]
+- ["s6UInt16V", "makeBytes"]
+- !private ["s6UInt32V", "Byte"]
+- ["s6UInt32V", "Bytes"]
+- ["s6UInt32V", "deinit"]
+- !private ["s6UInt32V", "littleEndian"]
+- ["s6UInt32V", "makeBytes"]
+- !private ["s6UInt64V", "Byte"]
+- ["s6UInt64V", "Bytes"]
+- ["s6UInt64V", "deinit"]
+- !private ["s6UInt64V", "littleEndian"]
+- ["s6UInt64V", "makeBytes"]
+- ["s5UInt8V", "Bytes"]
+- ["s5UInt8V", "deinit"]
+- !private ["s5UInt8V", "init"]
+- ["s5UInt8V", "makeBytes"]
+- !private ["SR", "init"]
+- !private ["SP", "withMemoryRebound"]
+- !private ["SU", "Array"]
+- !private ["SU", "Byte"]
+- !private ["SU", "MemoryLayout"]
+- !private ["SU", "UnsafeBufferPointer"]
+- !private ["SU", "init"]
+- !private ["SU", "littleEndian"]
+- ["SU", "makeBytes"]
+- !private ["SU", "withUnsafePointer"]
+- !private ["7Cheetah5ValueP", "Array"]
+- !private ["7Cheetah5ValueP", "Byte"]
+- !private ["7Cheetah5ValueP", "MemoryLayout"]
+- !private ["7Cheetah5ValueP", "UnsafeBufferPointer"]
+- !private ["7Cheetah5ValueP", "init"]
+- !private ["7Cheetah5ValueP", "littleEndian"]
+- ["7Cheetah5ValueP", "makeBytes"]
+- !private ["7Cheetah5ValueP", "withUnsafePointer"]
+- !private ["s18_BitwiseOperationsP", "Array"]
+- !private ["s18_BitwiseOperationsP", "Byte"]
+- !private ["s18_BitwiseOperationsP", "MemoryLayout"]
+- !private ["s18_BitwiseOperationsP", "UnsafeBufferPointer"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s18_BitwiseOperationsP", "littleEndian"]
+- ["s18_BitwiseOperationsP", "makeBytes"]
+- !private ["s18_BitwiseOperationsP", "withUnsafePointer"]
+- !private ["10Foundation13_CFBridgeableP", "init"]
+- !private ["s15_CVarArgAlignedP", "Array"]
+- !private ["s15_CVarArgAlignedP", "Byte"]
+- !private ["s15_CVarArgAlignedP", "MemoryLayout"]
+- !private ["s15_CVarArgAlignedP", "UnsafeBufferPointer"]
+- !private ["s15_CVarArgAlignedP", "littleEndian"]
+- ["s15_CVarArgAlignedP", "makeBytes"]
+- !private ["s15_CVarArgAlignedP", "withUnsafePointer"]
+- !private ["s22_CVarArgPassedAsDoubleP", "Array"]
+- !private ["s22_CVarArgPassedAsDoubleP", "Byte"]
+- !private ["s22_CVarArgPassedAsDoubleP", "MemoryLayout"]
+- !private ["s22_CVarArgPassedAsDoubleP", "UnsafeBufferPointer"]
+- ["s22_CVarArgPassedAsDoubleP", "makeBytes"]
+- !private ["s22_CVarArgPassedAsDoubleP", "withUnsafePointer"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "Array"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "Byte"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "MemoryLayout"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "UnsafeBufferPointer"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "makeBytes"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "withUnsafePointer"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Array"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "Byte"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "MemoryLayout"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "UnsafeBufferPointer"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "littleEndian"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "makeBytes"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "withUnsafePointer"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Array"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Byte"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "MemoryLayout"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "UnsafeBufferPointer"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "littleEndian"]
+- ["s35_HasCustomAnyHashableRepresentationP", "makeBytes"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "withUnsafePointer"]
+- !private ["10Foundation13_NSBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "Array"]
+- !private ["s21_ObjectiveCBridgeableP", "Byte"]
+- !private ["s21_ObjectiveCBridgeableP", "MemoryLayout"]
+- !private ["s21_ObjectiveCBridgeableP", "UnsafeBufferPointer"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "littleEndian"]
+- ["s21_ObjectiveCBridgeableP", "makeBytes"]
+- !private ["s21_ObjectiveCBridgeableP", "withUnsafePointer"]
+- !private ["s8_PointerP", "withMemoryRebound"]
+- !private ["s14_StringElementP", "Byte"]
+- !private ["s14_StringElementP", "init"]
+- !private ["s14_StringElementP", "littleEndian"]
+- ["s14_StringElementP", "makeBytes"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "11MongoKitten17BSONBytesProtocolP"
+- !private "4BSON17BSONBytesProtocolP"
+- !private "11MongoKitten17BSONBytesProtocolP"
+- !private "4BSON17BSONBytesProtocolP"
+- "11MongoKitten17BSONBytesProtocolP"
+- !private "4BSON17BSONBytesProtocolP"
+- !private "11MongoKitten17BSONBytesProtocolP"
+- !private "4BSON17BSONBytesProtocolP"
+- "11MongoKitten17BSONBytesProtocolP"
+- !private "4BSON17BSONBytesProtocolP"
+- !private "11MongoKitten17BSONBytesProtocolP"
+- !private "4BSON17BSONBytesProtocolP"
+- "11MongoKitten17BSONBytesProtocolP"
+- "4BSON17BSONBytesProtocolP"
+- !private "11MongoKitten17BSONBytesProtocolP"
+- !private "4BSON17BSONBytesProtocolP"
+- !private "SK"
+- "SB"
+- "Sz"
+- "s7CVarArgP"
+- !private "Sl"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "Sd"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "11MongoKitten23ExpressionRepresentableP"
+- "s17FixedWidthIntegerP"
+- "SF"
+- "SH"
+- "Si"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "s4Int8V"
+- "s25LosslessStringConvertibleP"
+- !private "s12MemoryLayoutO"
+- "s10MirrorPathP"
+- !private "SM"
+- "Sj"
+- "4BSON9PrimitiveP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- "4BSON23SubscriptExpressionTypeP"
+- "Su"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "s5UInt8V"
+- !private "SR"
+- !private "SP"
+- "SU"
+- "7Cheetah5ValueP"
+- "s18_BitwiseOperationsP"
+- !private "10Foundation13_CFBridgeableP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation13_NSBridgeableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- "s14_StringElementP"
+depends-dynamic-lookup:
+depends-external:
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/ExtendedJSON.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/GeoJSON.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/Cheetah.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/MongoSocket.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/perfectbuild/.build/checkouts/Perfect-COpenSSL-Linux.git--1861912504770719538/Sources/COpenSSL/module.modulemap"
+interface-hash: "314dddccfdccdb71c19a42e614ea77f7"

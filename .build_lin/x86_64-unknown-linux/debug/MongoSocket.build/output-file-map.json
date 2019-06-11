@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/MongoSocket.build/master.swiftdeps"
+  },
+  "/perfectbuild/Sources/MongoSocket/MongoTCP.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/MongoSocket.build/MongoTCP.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/MongoSocket.build/MongoTCP.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/MongoSocket.build/MongoTCP~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/MongoSocket.build/MongoTCP.swiftdeps"
+  },
+  "/perfectbuild/Sources/MongoSocket/Socket.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/MongoSocket.build/Socket.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/MongoSocket.build/Socket.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/MongoSocket.build/Socket~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/MongoSocket.build/Socket.swiftdeps"
+  }
+}

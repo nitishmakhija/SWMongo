@@ -1,0 +1,284 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["4BSON8DocumentV", ""]
+- ["4BSON8DocumentV", "validate"]
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "..."
+- !private "<"
+- !private "=="
+- !private ">"
+- !private ">="
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Document"
+- !private "ElementType"
+- !private "FloatLiteralType"
+- !private "Int"
+- !private "IntegerLiteralType"
+- "TernaryPrecedence"
+- !private "||"
+depends-member:
+- !private ["Sa", "count"]
+- !private ["Sa", "init"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["SK", "count"]
+- !private ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["Sl", "Array"]
+- !private ["Sl", "Document"]
+- !private ["Sl", "ElementType"]
+- !private ["Sl", "count"]
+- !private ["Sl", "getLengthOfElement"]
+- !private ["Sl", "init"]
+- !private ["Sl", "invalid"]
+- !private ["Sl", "storage"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "validate"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["Se", "Array"]
+- !private ["Se", "Document"]
+- !private ["Se", "ElementType"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "count"]
+- !private ["Se", "getLengthOfElement"]
+- !private ["Se", "init"]
+- !private ["Se", "invalid"]
+- !private ["Se", "storage"]
+- !private ["Se", "subscript"]
+- !private ["Se", "validate"]
+- !private ["4BSON8DocumentV", "Array"]
+- ["4BSON8DocumentV", "Bool"]
+- !private ["4BSON8DocumentV", "Document"]
+- !private ["4BSON8DocumentV", "ElementType"]
+- !private ["4BSON8DocumentV", "Int"]
+- !private ["4BSON8DocumentV", "deinit"]
+- !private ["4BSON8DocumentV", "getLengthOfElement"]
+- !private ["4BSON8DocumentV", "init"]
+- !private ["4BSON8DocumentV", "invalid"]
+- !private ["4BSON8DocumentV", "storage"]
+- ["4BSON8DocumentV", "validate"]
+- !private ["4BSON11ElementTypeO", "arrayDocument"]
+- !private ["4BSON11ElementTypeO", "binary"]
+- ["4BSON11ElementTypeO", "boolean"]
+- !private ["4BSON11ElementTypeO", "deinit"]
+- !private ["4BSON11ElementTypeO", "document"]
+- ["4BSON11ElementTypeO", "double"]
+- !private ["4BSON11ElementTypeO", "init"]
+- ["4BSON11ElementTypeO", "int32"]
+- ["4BSON11ElementTypeO", "int64"]
+- ["4BSON11ElementTypeO", "maxKey"]
+- ["4BSON11ElementTypeO", "minKey"]
+- ["4BSON11ElementTypeO", "nullValue"]
+- ["4BSON11ElementTypeO", "objectId"]
+- ["4BSON11ElementTypeO", "regex"]
+- !private ["4BSON11ElementTypeO", "string"]
+- ["4BSON11ElementTypeO", "timestamp"]
+- ["4BSON11ElementTypeO", "utcDateTime"]
+- !private ["SE", "Array"]
+- !private ["SE", "Document"]
+- !private ["SE", "ElementType"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "count"]
+- !private ["SE", "getLengthOfElement"]
+- !private ["SE", "init"]
+- !private ["SE", "invalid"]
+- !private ["SE", "storage"]
+- !private ["SE", "subscript"]
+- !private ["SE", "validate"]
+- !private ["SQ", "Array"]
+- !private ["SQ", "Document"]
+- !private ["SQ", "ElementType"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "arrayDocument"]
+- !private ["SQ", "binary"]
+- ["SQ", "boolean"]
+- !private ["SQ", "count"]
+- !private ["SQ", "document"]
+- ["SQ", "double"]
+- !private ["SQ", "getLengthOfElement"]
+- !private ["SQ", "init"]
+- ["SQ", "int32"]
+- ["SQ", "int64"]
+- !private ["SQ", "invalid"]
+- ["SQ", "maxKey"]
+- ["SQ", "minKey"]
+- ["SQ", "nullValue"]
+- ["SQ", "objectId"]
+- ["SQ", "regex"]
+- !private ["SQ", "storage"]
+- !private ["SQ", "string"]
+- !private ["SQ", "subscript"]
+- ["SQ", "timestamp"]
+- ["SQ", "utcDateTime"]
+- !private ["SQ", "validate"]
+- !private ["s25ExpressibleByArrayLiteralP", "Array"]
+- !private ["s25ExpressibleByArrayLiteralP", "Document"]
+- !private ["s25ExpressibleByArrayLiteralP", "ElementType"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "getLengthOfElement"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "invalid"]
+- !private ["s25ExpressibleByArrayLiteralP", "storage"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "validate"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Array"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Document"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "ElementType"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "getLengthOfElement"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "invalid"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "storage"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "validate"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "arrayDocument"]
+- !private ["SH", "binary"]
+- ["SH", "boolean"]
+- !private ["SH", "count"]
+- !private ["SH", "document"]
+- ["SH", "double"]
+- !private ["SH", "init"]
+- ["SH", "int32"]
+- ["SH", "int64"]
+- ["SH", "maxKey"]
+- ["SH", "minKey"]
+- ["SH", "nullValue"]
+- ["SH", "objectId"]
+- ["SH", "regex"]
+- !private ["SH", "string"]
+- !private ["SH", "subscript"]
+- ["SH", "timestamp"]
+- ["SH", "utcDateTime"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["SM", "count"]
+- !private ["SM", "init"]
+- !private ["SM", "subscript"]
+- !private ["4BSON9PrimitiveP", "Array"]
+- !private ["4BSON9PrimitiveP", "Document"]
+- !private ["4BSON9PrimitiveP", "ElementType"]
+- !private ["4BSON9PrimitiveP", "_getBuiltinLogicValue"]
+- !private ["4BSON9PrimitiveP", "count"]
+- !private ["4BSON9PrimitiveP", "getLengthOfElement"]
+- !private ["4BSON9PrimitiveP", "init"]
+- !private ["4BSON9PrimitiveP", "invalid"]
+- !private ["4BSON9PrimitiveP", "storage"]
+- !private ["4BSON9PrimitiveP", "subscript"]
+- !private ["4BSON9PrimitiveP", "validate"]
+- !private ["Sk", "count"]
+- !private ["Sk", "init"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "count"]
+- !private ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "arrayDocument"]
+- !private ["SY", "binary"]
+- ["SY", "boolean"]
+- !private ["SY", "document"]
+- ["SY", "double"]
+- !private ["SY", "init"]
+- ["SY", "int32"]
+- ["SY", "int64"]
+- ["SY", "maxKey"]
+- ["SY", "minKey"]
+- ["SY", "nullValue"]
+- ["SY", "objectId"]
+- ["SY", "regex"]
+- !private ["SY", "string"]
+- ["SY", "timestamp"]
+- ["SY", "utcDateTime"]
+- !private ["ST", "Array"]
+- !private ["ST", "Document"]
+- !private ["ST", "ElementType"]
+- !private ["ST", "count"]
+- !private ["ST", "getLengthOfElement"]
+- !private ["ST", "init"]
+- !private ["ST", "invalid"]
+- !private ["ST", "storage"]
+- !private ["ST", "subscript"]
+- !private ["ST", "validate"]
+- !private ["10Foundation13_CFBridgeableP", "_getBuiltinLogicValue"]
+- !private ["10Foundation13_CFBridgeableP", "count"]
+- !private ["10Foundation13_CFBridgeableP", "init"]
+- !private ["10Foundation13_CFBridgeableP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation13_NSBridgeableP", "count"]
+- !private ["10Foundation13_NSBridgeableP", "init"]
+- !private ["10Foundation13_NSBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- "4BSON8DocumentV"
+- "4BSON11ElementTypeO"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "4BSON9PrimitiveP"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "ST"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation13_NSBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/perfectbuild/.build/checkouts/Perfect-COpenSSL-Linux.git--1861912504770719538/Sources/COpenSSL/module.modulemap"
+interface-hash: "0fb9d84375cd8f756a8eb9bc0348b8c9"

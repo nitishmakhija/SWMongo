@@ -1,0 +1,47 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ValueConvertible"
+provides-nominal:
+- "11MongoKitten16ValueConvertibleP"
+provides-member:
+- ["11MongoKitten16ValueConvertibleP", ""]
+- ["11MongoKitten16ValueConvertibleP", "typeIdentifier"]
+- ["11MongoKitten16ValueConvertibleP", "makeBinary"]
+depends-top-level:
+- "BSON"
+- "Byte"
+- "Bytes"
+- "ValueConvertible"
+depends-member:
+- ["4BSON9PrimitiveP", "BSON"]
+- ["4BSON9PrimitiveP", "Byte"]
+- ["4BSON9PrimitiveP", "Bytes"]
+- ["4BSON9PrimitiveP", ""]
+- !private ["4BSON9PrimitiveP", "makeBinary"]
+- !private ["4BSON9PrimitiveP", "makePrimitive"]
+- !private ["4BSON9PrimitiveP", "typeIdentifier"]
+- ["11MongoKitten16ValueConvertibleP", "BSON"]
+- ["11MongoKitten16ValueConvertibleP", "Byte"]
+- ["11MongoKitten16ValueConvertibleP", "Bytes"]
+- ["11MongoKitten16ValueConvertibleP", "makeBinary"]
+- ["11MongoKitten16ValueConvertibleP", "makePrimitive"]
+- ["11MongoKitten16ValueConvertibleP", "typeIdentifier"]
+depends-nominal:
+- "4BSON9PrimitiveP"
+- "11MongoKitten16ValueConvertibleP"
+depends-dynamic-lookup:
+depends-external:
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/ExtendedJSON.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/GeoJSON.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/Cheetah.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/MongoSocket.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/perfectbuild/.build/checkouts/Perfect-COpenSSL-Linux.git--1861912504770719538/Sources/COpenSSL/module.modulemap"
+interface-hash: "0b0b979f6e1db40c9808095df0fa2eb1"

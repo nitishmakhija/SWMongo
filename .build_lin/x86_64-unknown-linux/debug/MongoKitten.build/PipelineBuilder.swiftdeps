@@ -1,0 +1,647 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AggregationPipeline"
+- "Expression"
+- "ExpressionRepresentable"
+- "AccumulatedGroupExpression"
+provides-nominal:
+- "11MongoKitten19AggregationPipelineV"
+- "11MongoKitten19AggregationPipelineV5StageV"
+- "11MongoKitten10ExpressionO"
+- "11MongoKitten23ExpressionRepresentableP"
+- "SS"
+- "Sb"
+- "4BSON8ObjectIdV"
+- "4BSON6BinaryV"
+- "10Foundation6NSNullC"
+- "4BSON14JavascriptCodeV"
+- "4BSON17RegularExpressionV"
+- "10Foundation4DateV"
+- "Sd"
+- "Si"
+- "s5Int32V"
+- "4BSON8DocumentV"
+- "11MongoKitten26AccumulatedGroupExpressionO"
+provides-member:
+- ["11MongoKitten19AggregationPipelineV", ""]
+- ["11MongoKitten19AggregationPipelineV5StageV", ""]
+- ["11MongoKitten10ExpressionO", ""]
+- ["11MongoKitten23ExpressionRepresentableP", ""]
+- ["SS", ""]
+- ["Sb", ""]
+- ["4BSON8ObjectIdV", ""]
+- ["4BSON6BinaryV", ""]
+- ["10Foundation6NSNullC", ""]
+- ["4BSON14JavascriptCodeV", ""]
+- ["4BSON17RegularExpressionV", ""]
+- ["10Foundation4DateV", ""]
+- ["Sd", ""]
+- ["Si", ""]
+- ["s5Int32V", ""]
+- ["4BSON8DocumentV", ""]
+- ["11MongoKitten26AccumulatedGroupExpressionO", ""]
+depends-top-level:
+- !private "!="
+- !private "=="
+- "AccumulatedGroupExpression"
+- "AggregationPipeline"
+- "Array"
+- "AssignmentPrecedence"
+- "BSON"
+- "Binary"
+- "Bool"
+- "CastingPrecedence"
+- "Collection"
+- "CustomDebugStringConvertible"
+- "Date"
+- !private "Dictionary"
+- "Document"
+- "Double"
+- "ExpressibleByArrayLiteral"
+- "Expression"
+- "ExpressionRepresentable"
+- !private "FloatLiteralType"
+- "GeoNearOptions"
+- "Int"
+- "Int32"
+- !private "IntegerLiteralType"
+- "JavascriptCode"
+- "NSNull"
+- "ObjectId"
+- "Projection"
+- "Query"
+- "RegularExpression"
+- "Sort"
+- "String"
+- !private "StringLiteralType"
+- "ValueConvertible"
+depends-member:
+- ["11MongoKitten26AccumulatedGroupExpressionO", "AccumulatedGroupExpression"]
+- ["11MongoKitten26AccumulatedGroupExpressionO", "BSON"]
+- ["11MongoKitten26AccumulatedGroupExpressionO", "Document"]
+- ["11MongoKitten26AccumulatedGroupExpressionO", "ExpressionRepresentable"]
+- ["11MongoKitten26AccumulatedGroupExpressionO", "addToSet"]
+- ["11MongoKitten26AccumulatedGroupExpressionO", "average"]
+- ["11MongoKitten26AccumulatedGroupExpressionO", "averageOf"]
+- ["11MongoKitten26AccumulatedGroupExpressionO", "first"]
+- ["11MongoKitten26AccumulatedGroupExpressionO", "last"]
+- ["11MongoKitten26AccumulatedGroupExpressionO", "makeDocument"]
+- ["11MongoKitten26AccumulatedGroupExpressionO", "makePrimitive"]
+- ["11MongoKitten26AccumulatedGroupExpressionO", "max"]
+- ["11MongoKitten26AccumulatedGroupExpressionO", "maxOf"]
+- ["11MongoKitten26AccumulatedGroupExpressionO", "min"]
+- ["11MongoKitten26AccumulatedGroupExpressionO", "minOf"]
+- ["11MongoKitten26AccumulatedGroupExpressionO", "push"]
+- ["11MongoKitten26AccumulatedGroupExpressionO", "sum"]
+- ["11MongoKitten26AccumulatedGroupExpressionO", "sumOf"]
+- ["11MongoKitten19AggregationPipelineV", "AccumulatedGroupExpression"]
+- ["11MongoKitten19AggregationPipelineV", "AggregationPipeline"]
+- ["11MongoKitten19AggregationPipelineV", "ArrayLiteralElement"]
+- ["11MongoKitten19AggregationPipelineV", "BSON"]
+- ["11MongoKitten19AggregationPipelineV", "Bool"]
+- ["11MongoKitten19AggregationPipelineV", "Collection"]
+- ["11MongoKitten19AggregationPipelineV", "Document"]
+- ["11MongoKitten19AggregationPipelineV", "ExpressionRepresentable"]
+- ["11MongoKitten19AggregationPipelineV", "GeoNearOptions"]
+- ["11MongoKitten19AggregationPipelineV", "Int"]
+- ["11MongoKitten19AggregationPipelineV", "Projection"]
+- ["11MongoKitten19AggregationPipelineV", "Query"]
+- ["11MongoKitten19AggregationPipelineV", "Sort"]
+- ["11MongoKitten19AggregationPipelineV", "Stage"]
+- ["11MongoKitten19AggregationPipelineV", "String"]
+- ["11MongoKitten19AggregationPipelineV", "ValueConvertible"]
+- ["11MongoKitten19AggregationPipelineV", "_Default_ArrayLiteralElement"]
+- ["11MongoKitten19AggregationPipelineV", "append"]
+- ["11MongoKitten19AggregationPipelineV", "debugDescription"]
+- ["11MongoKitten19AggregationPipelineV", "deinit"]
+- ["11MongoKitten19AggregationPipelineV", "init"]
+- ["11MongoKitten19AggregationPipelineV", "makeBinary"]
+- ["11MongoKitten19AggregationPipelineV", "makePrimitive"]
+- ["11MongoKitten19AggregationPipelineV", "pipelineDocument"]
+- ["11MongoKitten19AggregationPipelineV", "typeIdentifier"]
+- !private ["Sa", "count"]
+- !private ["Sa", "first"]
+- !private ["Sa", "map"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "first"]
+- !private ["s13ArrayProtocolP", "map"]
+- ["11MongoKitten17BSONBytesProtocolP", "makeExpression"]
+- ["4BSON17BSONBytesProtocolP", "makeExpression"]
+- !private ["SK", "count"]
+- !private ["SK", "first"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- ["SK", "makeExpression"]
+- !private ["SK", "map"]
+- ["4BSON6BinaryV", "Expression"]
+- ["4BSON6BinaryV", "deinit"]
+- ["4BSON6BinaryV", "makeExpression"]
+- ["SB", "makeExpression"]
+- ["Sz", "makeExpression"]
+- ["Sb", "Expression"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["Sb", "makeExpression"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "makeExpression"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- ["Sl", "makeExpression"]
+- !private ["Sl", "makeExtendedJSON"]
+- !private ["Sl", "map"]
+- !private ["11MongoKitten10CollectionC", "name"]
+- !private ["Sl", "reduce"]
+- !private ["Sl", "subscript"]
+- !private ["11MongoKitten19CollectionQueryableP", "name"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- ["SL", "makeExpression"]
+- ["s28CustomDebugStringConvertibleP", "ArrayLiteralElement"]
+- !private ["s28CustomDebugStringConvertibleP", "Document"]
+- !private ["s28CustomDebugStringConvertibleP", "Stage"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_ArrayLiteralElement"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "document"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "makeBinary"]
+- !private ["s28CustomDebugStringConvertibleP", "makeDocument"]
+- ["s28CustomDebugStringConvertibleP", "makeExpression"]
+- !private ["s28CustomDebugStringConvertibleP", "makeExtendedJSON"]
+- ["s28CustomDebugStringConvertibleP", "makePrimitive"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "out"]
+- !private ["s28CustomDebugStringConvertibleP", "pipelineDocument"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "typeIdentifier"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "makeExpression"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "makeExpression"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "makeExpression"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- ["10Foundation4DateV", "Expression"]
+- ["10Foundation4DateV", "deinit"]
+- ["10Foundation4DateV", "makeExpression"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- ["Se", "makeExpression"]
+- !private ["Se", "makeExtendedJSON"]
+- !private ["Se", "map"]
+- !private ["Se", "reduce"]
+- !private ["Se", "subscript"]
+- !private ["SD", "map"]
+- !private ["SD", "reduce"]
+- ["4BSON8DocumentV", "Expression"]
+- !private ["4BSON8DocumentV", "append"]
+- ["4BSON8DocumentV", "deinit"]
+- !private ["4BSON8DocumentV", "init"]
+- ["4BSON8DocumentV", "makeExpression"]
+- !private ["4BSON8DocumentV", "makeExtendedJSON"]
+- !private ["4BSON8DocumentV", "subscript"]
+- ["Sd", "Expression"]
+- ["Sd", "deinit"]
+- ["Sd", "makeExpression"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- ["SE", "makeExpression"]
+- !private ["SE", "makeExtendedJSON"]
+- !private ["SE", "map"]
+- !private ["SE", "reduce"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "count"]
+- !private ["SQ", "first"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "makeExpression"]
+- !private ["SQ", "makeExtendedJSON"]
+- !private ["SQ", "map"]
+- !private ["SQ", "reduce"]
+- !private ["SQ", "subscript"]
+- ["s25ExpressibleByArrayLiteralP", "ArrayLiteralElement"]
+- !private ["s25ExpressibleByArrayLiteralP", "Document"]
+- !private ["s25ExpressibleByArrayLiteralP", "Stage"]
+- ["s25ExpressibleByArrayLiteralP", ""]
+- ["s25ExpressibleByArrayLiteralP", "_Default_ArrayLiteralElement"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- ["s25ExpressibleByArrayLiteralP", "debugDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- ["s25ExpressibleByArrayLiteralP", "makeBinary"]
+- ["s25ExpressibleByArrayLiteralP", "makeExpression"]
+- !private ["s25ExpressibleByArrayLiteralP", "makeExtendedJSON"]
+- ["s25ExpressibleByArrayLiteralP", "makePrimitive"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "pipelineDocument"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- ["s25ExpressibleByArrayLiteralP", "typeIdentifier"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s27ExpressibleByBooleanLiteralP", "makeExpression"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "append"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- ["s30ExpressibleByDictionaryLiteralP", "makeExpression"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "makeExtendedJSON"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "map"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "reduce"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "makeExpression"]
+- ["s25ExpressibleByFloatLiteralP", "makeExpression"]
+- ["s27ExpressibleByIntegerLiteralP", "makeExpression"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "makeExpression"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "makeExpression"]
+- ["11MongoKitten10ExpressionO", "BSON"]
+- ["11MongoKitten10ExpressionO", "deinit"]
+- ["11MongoKitten10ExpressionO", "literal"]
+- ["11MongoKitten10ExpressionO", "makeBinary"]
+- ["11MongoKitten10ExpressionO", "makePrimitive"]
+- ["11MongoKitten10ExpressionO", "typeIdentifier"]
+- ["11MongoKitten23ExpressionRepresentableP", "Expression"]
+- ["11MongoKitten23ExpressionRepresentableP", ""]
+- !private ["11MongoKitten23ExpressionRepresentableP", "_getBuiltinLogicValue"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "append"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "init"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "init"]
+- ["11MongoKitten23ExpressionRepresentableP", "makeExpression"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "makeExtendedJSON"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "subscript"]
+- ["s17FixedWidthIntegerP", "makeExpression"]
+- ["SF", "makeExpression"]
+- !private ["11MongoKitten14GeoNearOptionsV", "deinit"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "count"]
+- !private ["SH", "first"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "makeExpression"]
+- !private ["SH", "map"]
+- !private ["SH", "reduce"]
+- ["Si", "Expression"]
+- ["Si", "deinit"]
+- ["Si", "makeExpression"]
+- ["s5Int32V", "Expression"]
+- ["s5Int32V", "deinit"]
+- ["s5Int32V", "makeExpression"]
+- ["4BSON14JavascriptCodeV", "Expression"]
+- ["4BSON14JavascriptCodeV", "deinit"]
+- ["4BSON14JavascriptCodeV", "makeExpression"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "makeExpression"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "makeExpression"]
+- !private ["SM", "count"]
+- !private ["SM", "first"]
+- !private ["SM", "map"]
+- ["10Foundation8NSCodingP", "makeExpression"]
+- ["10Foundation9NSCopyingP", "makeExpression"]
+- ["10Foundation6NSNullC", "Expression"]
+- ["10Foundation6NSNullC", "deinit"]
+- ["10Foundation6NSNullC", "makeExpression"]
+- ["10Foundation8NSObjectC", "Expression"]
+- ["10Foundation8NSObjectC", "makeExpression"]
+- ["10Foundation16NSObjectProtocolP", "makeExpression"]
+- ["10Foundation14NSSecureCodingP", "makeExpression"]
+- ["Sj", "makeExpression"]
+- ["4BSON8ObjectIdV", "Expression"]
+- ["4BSON8ObjectIdV", "deinit"]
+- ["4BSON8ObjectIdV", "makeExpression"]
+- ["4BSON9PrimitiveP", "ArrayLiteralElement"]
+- !private ["4BSON9PrimitiveP", "Document"]
+- !private ["4BSON9PrimitiveP", "Stage"]
+- ["4BSON9PrimitiveP", ""]
+- ["4BSON9PrimitiveP", "_Default_ArrayLiteralElement"]
+- !private ["4BSON9PrimitiveP", "_getBuiltinLogicValue"]
+- !private ["4BSON9PrimitiveP", "append"]
+- !private ["4BSON9PrimitiveP", "count"]
+- ["4BSON9PrimitiveP", "debugDescription"]
+- !private ["4BSON9PrimitiveP", "document"]
+- !private ["4BSON9PrimitiveP", "first"]
+- ["4BSON9PrimitiveP", "init"]
+- !private ["4BSON9PrimitiveP", "init"]
+- ["4BSON9PrimitiveP", "literal"]
+- ["4BSON9PrimitiveP", "makeBinary"]
+- !private ["4BSON9PrimitiveP", "makeDocument"]
+- ["4BSON9PrimitiveP", "makeExpression"]
+- !private ["4BSON9PrimitiveP", "makeExtendedJSON"]
+- ["4BSON9PrimitiveP", "makePrimitive"]
+- !private ["4BSON9PrimitiveP", "map"]
+- !private ["4BSON9PrimitiveP", "out"]
+- !private ["4BSON9PrimitiveP", "pipelineDocument"]
+- !private ["4BSON9PrimitiveP", "reduce"]
+- !private ["4BSON9PrimitiveP", "subscript"]
+- ["4BSON9PrimitiveP", "typeIdentifier"]
+- !private ["11MongoKitten10ProjectionV", "deinit"]
+- !private ["11MongoKitten5QueryV", "deinit"]
+- !private ["Sk", "count"]
+- !private ["Sk", "first"]
+- !private ["Sk", "map"]
+- !private ["Sm", "count"]
+- !private ["Sm", "first"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- ["Sm", "makeExpression"]
+- !private ["Sm", "map"]
+- ["10Foundation20ReferenceConvertibleP", "makeExpression"]
+- ["4BSON17RegularExpressionV", "Expression"]
+- ["4BSON17RegularExpressionV", "deinit"]
+- ["4BSON17RegularExpressionV", "makeExpression"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- ["ST", "makeExpression"]
+- !private ["ST", "makeExtendedJSON"]
+- !private ["ST", "map"]
+- !private ["ST", "reduce"]
+- !private ["ST", "subscript"]
+- ["SZ", "makeExpression"]
+- ["s13SignedNumericP", "makeExpression"]
+- !private ["11MongoKitten4SortV", "deinit"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "AccumulatedGroupExpression"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "AggregationPipeline"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "BSON"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "Bool"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "Collection"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "Document"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "ExpressionRepresentable"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "GeoNearOptions"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "Int"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "Projection"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "Query"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "Sort"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "Stage"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "String"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "addFields"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "count"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "debugDescription"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "deinit"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "document"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "facet"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "geoNear"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "group"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "init"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "limit"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "lookup"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "makeBinary"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "makeDocument"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "makePrimitive"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "match"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "out"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "project"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "replaceRoot"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "sample"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "skip"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "sort"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "typeIdentifier"]
+- ["11MongoKitten19AggregationPipelineV5StageV", "unwind"]
+- ["Sx", "makeExpression"]
+- ["SS", "Expression"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- ["SS", "makeExpression"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- ["Sy", "makeExpression"]
+- !private ["4BSON23SubscriptExpressionTypeP", "init"]
+- !private ["4BSON23SubscriptExpressionTypeP", "init"]
+- ["4BSON23SubscriptExpressionTypeP", "makeExpression"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "makeExpression"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "makeExpression"]
+- !private ["7Cheetah5ValueP", "_getBuiltinLogicValue"]
+- !private ["7Cheetah5ValueP", "count"]
+- !private ["7Cheetah5ValueP", "first"]
+- !private ["7Cheetah5ValueP", "init"]
+- !private ["7Cheetah5ValueP", "init"]
+- ["7Cheetah5ValueP", "makeExpression"]
+- !private ["7Cheetah5ValueP", "map"]
+- !private ["7Cheetah5ValueP", "reduce"]
+- !private ["7Cheetah5ValueP", "serializedString"]
+- ["11MongoKitten16ValueConvertibleP", "ArrayLiteralElement"]
+- !private ["11MongoKitten16ValueConvertibleP", "Document"]
+- !private ["11MongoKitten16ValueConvertibleP", "Stage"]
+- ["11MongoKitten16ValueConvertibleP", ""]
+- ["11MongoKitten16ValueConvertibleP", "_Default_ArrayLiteralElement"]
+- ["11MongoKitten16ValueConvertibleP", "debugDescription"]
+- !private ["11MongoKitten16ValueConvertibleP", "document"]
+- ["11MongoKitten16ValueConvertibleP", "init"]
+- ["11MongoKitten16ValueConvertibleP", "literal"]
+- ["11MongoKitten16ValueConvertibleP", "makeBinary"]
+- !private ["11MongoKitten16ValueConvertibleP", "makeDocument"]
+- ["11MongoKitten16ValueConvertibleP", "makePrimitive"]
+- !private ["11MongoKitten16ValueConvertibleP", "out"]
+- !private ["11MongoKitten16ValueConvertibleP", "pipelineDocument"]
+- ["11MongoKitten16ValueConvertibleP", "typeIdentifier"]
+- ["s18_BitwiseOperationsP", "makeExpression"]
+- !private ["10Foundation13_CFBridgeableP", "_getBuiltinLogicValue"]
+- !private ["10Foundation13_CFBridgeableP", "count"]
+- !private ["10Foundation13_CFBridgeableP", "first"]
+- !private ["10Foundation13_CFBridgeableP", "init"]
+- !private ["10Foundation13_CFBridgeableP", "init"]
+- ["10Foundation13_CFBridgeableP", "makeExpression"]
+- !private ["10Foundation13_CFBridgeableP", "map"]
+- !private ["10Foundation13_CFBridgeableP", "reduce"]
+- ["s15_CVarArgAlignedP", "makeExpression"]
+- ["s22_CVarArgPassedAsDoubleP", "makeExpression"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s35_ExpressibleByBuiltinBooleanLiteralP", "makeExpression"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "makeExpression"]
+- ["s33_ExpressibleByBuiltinFloatLiteralP", "makeExpression"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "makeExpression"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "makeExpression"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "makeExpression"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "makeExpression"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "makeExpression"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- ["s35_HasCustomAnyHashableRepresentationP", "makeExpression"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reduce"]
+- !private ["10Foundation13_NSBridgeableP", "count"]
+- !private ["10Foundation13_NSBridgeableP", "first"]
+- !private ["10Foundation13_NSBridgeableP", "init"]
+- !private ["10Foundation13_NSBridgeableP", "init"]
+- ["10Foundation13_NSBridgeableP", "makeExpression"]
+- !private ["10Foundation13_NSBridgeableP", "map"]
+- !private ["10Foundation13_NSBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "makeExpression"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "makeExpression"]
+depends-nominal:
+- "11MongoKitten26AccumulatedGroupExpressionO"
+- "11MongoKitten19AggregationPipelineV"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- "11MongoKitten17BSONBytesProtocolP"
+- "4BSON17BSONBytesProtocolP"
+- "SK"
+- "4BSON6BinaryV"
+- "SB"
+- "Sz"
+- "Sb"
+- "s7CVarArgP"
+- "Sl"
+- !private "11MongoKitten10CollectionC"
+- !private "Sl"
+- !private "11MongoKitten19CollectionQueryableP"
+- "SL"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DateV"
+- "Se"
+- !private "SD"
+- "4BSON8DocumentV"
+- "Sd"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "11MongoKitten10ExpressionO"
+- "11MongoKitten23ExpressionRepresentableP"
+- "s17FixedWidthIntegerP"
+- "SF"
+- !private "11MongoKitten14GeoNearOptionsV"
+- "SH"
+- "Si"
+- "s5Int32V"
+- "4BSON14JavascriptCodeV"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- "10Foundation8NSCodingP"
+- "10Foundation9NSCopyingP"
+- "10Foundation6NSNullC"
+- "10Foundation8NSObjectC"
+- "10Foundation16NSObjectProtocolP"
+- "10Foundation14NSSecureCodingP"
+- "Sj"
+- "4BSON8ObjectIdV"
+- "4BSON9PrimitiveP"
+- !private "11MongoKitten10ProjectionV"
+- !private "11MongoKitten5QueryV"
+- !private "Sk"
+- "Sm"
+- "10Foundation20ReferenceConvertibleP"
+- "4BSON17RegularExpressionV"
+- "ST"
+- "SZ"
+- "s13SignedNumericP"
+- !private "11MongoKitten4SortV"
+- "11MongoKitten19AggregationPipelineV5StageV"
+- "Sx"
+- "SS"
+- "Sy"
+- "4BSON23SubscriptExpressionTypeP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "7Cheetah5ValueP"
+- "11MongoKitten16ValueConvertibleP"
+- "s18_BitwiseOperationsP"
+- "10Foundation13_CFBridgeableP"
+- "s15_CVarArgAlignedP"
+- "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation13_NSBridgeableP"
+- "s21_ObjectiveCBridgeableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/ExtendedJSON.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/GeoJSON.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/Cheetah.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/MongoSocket.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/perfectbuild/.build/checkouts/Perfect-COpenSSL-Linux.git--1861912504770719538/Sources/COpenSSL/module.modulemap"
+interface-hash: "238fff060880649a1d1e26664e819b67"

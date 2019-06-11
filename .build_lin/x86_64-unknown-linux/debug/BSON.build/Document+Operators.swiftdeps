@@ -1,0 +1,214 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "=="
+- "==="
+- "+"
+- "+="
+provides-nominal:
+- "4BSON8DocumentV"
+provides-member:
+- ["4BSON8DocumentV", ""]
+- ["4BSON8DocumentV", "+"]
+- ["4BSON8DocumentV", "+="]
+depends-top-level:
+- "+"
+- "+="
+- "=="
+- "==="
+- !private ">"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "Document"
+- "Equatable"
+- !private "FloatLiteralType"
+- !private "IndexTrieNode"
+- !private "IntegerLiteralType"
+- "TernaryPrecedence"
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "contains"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "contains"]
+- !private ["SK", "append"]
+- !private ["SK", "contains"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["Sl", "IndexTrieNode"]
+- !private ["Sl", "append"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "count"]
+- !private ["Sl", "isArray"]
+- !private ["Sl", "keys"]
+- !private ["Sl", "removeValue"]
+- !private ["Sl", "searchTree"]
+- !private ["Sl", "storage"]
+- !private ["Sl", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["Se", "IndexTrieNode"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "contains"]
+- !private ["Se", "count"]
+- !private ["Se", "isArray"]
+- !private ["Se", "keys"]
+- !private ["Se", "removeValue"]
+- !private ["Se", "searchTree"]
+- !private ["Se", "storage"]
+- !private ["Se", "subscript"]
+- ["4BSON8DocumentV", "+"]
+- ["4BSON8DocumentV", "+="]
+- ["4BSON8DocumentV", "=="]
+- ["4BSON8DocumentV", "==="]
+- ["4BSON8DocumentV", "Bool"]
+- ["4BSON8DocumentV", "Document"]
+- !private ["4BSON8DocumentV", "IndexTrieNode"]
+- !private ["4BSON8DocumentV", "count"]
+- ["4BSON8DocumentV", "deinit"]
+- !private ["4BSON8DocumentV", "isArray"]
+- !private ["4BSON8DocumentV", "keys"]
+- !private ["4BSON8DocumentV", "removeValue"]
+- !private ["4BSON8DocumentV", "searchTree"]
+- !private ["4BSON8DocumentV", "storage"]
+- !private ["4BSON8DocumentV", "subscript"]
+- !private ["SE", "IndexTrieNode"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "contains"]
+- !private ["SE", "count"]
+- !private ["SE", "isArray"]
+- !private ["SE", "keys"]
+- !private ["SE", "removeValue"]
+- !private ["SE", "searchTree"]
+- !private ["SE", "storage"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "IndexTrieNode"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "count"]
+- !private ["SQ", "isArray"]
+- !private ["SQ", "keys"]
+- !private ["SQ", "removeValue"]
+- !private ["SQ", "searchTree"]
+- !private ["SQ", "storage"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "IndexTrieNode"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "isArray"]
+- !private ["s25ExpressibleByArrayLiteralP", "keys"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeValue"]
+- !private ["s25ExpressibleByArrayLiteralP", "searchTree"]
+- !private ["s25ExpressibleByArrayLiteralP", "storage"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "IndexTrieNode"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "count"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "isArray"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "keys"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "removeValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "searchTree"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "storage"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "append"]
+- !private ["SH", "contains"]
+- !private ["4BSON13IndexTrieNodeC", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["SM", "append"]
+- !private ["SM", "contains"]
+- !private ["4BSON9PrimitiveP", "IndexTrieNode"]
+- !private ["4BSON9PrimitiveP", "_getBuiltinLogicValue"]
+- !private ["4BSON9PrimitiveP", "append"]
+- !private ["4BSON9PrimitiveP", "contains"]
+- !private ["4BSON9PrimitiveP", "count"]
+- !private ["4BSON9PrimitiveP", "isArray"]
+- !private ["4BSON9PrimitiveP", "keys"]
+- !private ["4BSON9PrimitiveP", "makeBinary"]
+- !private ["4BSON9PrimitiveP", "removeValue"]
+- !private ["4BSON9PrimitiveP", "searchTree"]
+- !private ["4BSON9PrimitiveP", "storage"]
+- !private ["4BSON9PrimitiveP", "subscript"]
+- !private ["Sk", "append"]
+- !private ["Sk", "contains"]
+- !private ["Sm", "append"]
+- !private ["Sm", "contains"]
+- !private ["ST", "IndexTrieNode"]
+- !private ["ST", "append"]
+- !private ["ST", "contains"]
+- !private ["ST", "count"]
+- !private ["ST", "isArray"]
+- !private ["ST", "keys"]
+- !private ["ST", "removeValue"]
+- !private ["ST", "searchTree"]
+- !private ["ST", "storage"]
+- !private ["ST", "subscript"]
+- !private ["SS", "deinit"]
+- !private ["10Foundation13_CFBridgeableP", "_getBuiltinLogicValue"]
+- !private ["10Foundation13_CFBridgeableP", "append"]
+- !private ["10Foundation13_CFBridgeableP", "contains"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["10Foundation13_NSBridgeableP", "append"]
+- !private ["10Foundation13_NSBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- "4BSON8DocumentV"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "SH"
+- !private "4BSON13IndexTrieNodeC"
+- !private "s25LosslessStringConvertibleP"
+- !private "SM"
+- !private "4BSON9PrimitiveP"
+- !private "Sk"
+- !private "Sm"
+- !private "ST"
+- !private "SS"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation13_NSBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/perfectbuild/.build/checkouts/Perfect-COpenSSL-Linux.git--1861912504770719538/Sources/COpenSSL/module.modulemap"
+interface-hash: "ad04cc5a1b0d0ab73eabbf6982e4748b"

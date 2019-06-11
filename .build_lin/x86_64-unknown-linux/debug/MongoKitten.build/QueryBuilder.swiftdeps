@@ -1,0 +1,762 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "=="
+- "!="
+- ">"
+- ">="
+- "<"
+- "<="
+- "&&"
+- "||"
+- "!"
+- "&="
+- "||="
+- "||="
+- "AQT"
+- "Query"
+- "=="
+provides-nominal:
+- "11MongoKitten3AQTO"
+- "11MongoKitten3AQTO7AQTTypeO"
+- "11MongoKitten5QueryV"
+provides-member:
+- ["SS", ""]
+- ["11MongoKitten3AQTO", ""]
+- ["11MongoKitten3AQTO7AQTTypeO", ""]
+- ["11MongoKitten5QueryV", ""]
+- ["SS", "in"]
+depends-top-level:
+- "!"
+- "!="
+- "&&"
+- "&="
+- !private "+"
+- "<"
+- "<="
+- "=="
+- ">"
+- ">="
+- "AQT"
+- !private "Array"
+- "AssignmentPrecedence"
+- "BSON"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- "DefaultPrecedence"
+- !private "Dictionary"
+- "Document"
+- "Double"
+- "Equatable"
+- "ExpressibleByDictionaryLiteral"
+- "ExpressibleByStringLiteral"
+- "FloatLiteralType"
+- "GeoJSON"
+- "Geometry"
+- !private "GeometryOperator"
+- "Int32"
+- "IntegerLiteralType"
+- "NSRegularExpression"
+- "Point"
+- "Primitive"
+- "Query"
+- !private "RegularExpression"
+- "String"
+- !private "StringLiteralType"
+- !private "UnicodeScalarType"
+- "ValueConvertible"
+- !private "print"
+- "||"
+- "||="
+- !private "~="
+depends-member:
+- ["11MongoKitten3AQTO", "=="]
+- ["11MongoKitten3AQTO", "AQT"]
+- ["11MongoKitten3AQTO", "AQTType"]
+- ["11MongoKitten3AQTO", "BSON"]
+- ["11MongoKitten3AQTO", "Bool"]
+- ["11MongoKitten3AQTO", "Document"]
+- ["11MongoKitten3AQTO", "Double"]
+- ["11MongoKitten3AQTO", "Equatable"]
+- ["11MongoKitten3AQTO", "GeoJSON"]
+- ["11MongoKitten3AQTO", "Geometry"]
+- !private ["11MongoKitten3AQTO", "GeometryOperator"]
+- ["11MongoKitten3AQTO", "Int32"]
+- ["11MongoKitten3AQTO", "NSRegularExpression"]
+- ["11MongoKitten3AQTO", "Point"]
+- ["11MongoKitten3AQTO", "Primitive"]
+- !private ["11MongoKitten3AQTO", "RegularExpression"]
+- ["11MongoKitten3AQTO", "String"]
+- ["11MongoKitten3AQTO", "and"]
+- ["11MongoKitten3AQTO", "contains"]
+- ["11MongoKitten3AQTO", "containsElement"]
+- ["11MongoKitten3AQTO", "deinit"]
+- ["11MongoKitten3AQTO", "document"]
+- ["11MongoKitten3AQTO", "endsWith"]
+- ["11MongoKitten3AQTO", "exactly"]
+- ["11MongoKitten3AQTO", "exists"]
+- ["11MongoKitten3AQTO", "geoIntersects"]
+- ["11MongoKitten3AQTO", "geoWithin"]
+- ["11MongoKitten3AQTO", "greaterThan"]
+- ["11MongoKitten3AQTO", "greaterThanOrEqual"]
+- ["11MongoKitten3AQTO", "in"]
+- ["11MongoKitten3AQTO", "init"]
+- !private ["11MongoKitten3AQTO", "init"]
+- ["11MongoKitten3AQTO", "near"]
+- ["11MongoKitten3AQTO", "nearSphere"]
+- ["11MongoKitten3AQTO", "not"]
+- ["11MongoKitten3AQTO", "nothing"]
+- ["11MongoKitten3AQTO", "or"]
+- !private ["11MongoKitten3AQTO", "print"]
+- ["11MongoKitten3AQTO", "smallerThan"]
+- ["11MongoKitten3AQTO", "smallerThanOrEqual"]
+- ["11MongoKitten3AQTO", "startsWith"]
+- ["11MongoKitten3AQTO", "typeof"]
+- ["11MongoKitten3AQTO", "valEquals"]
+- ["11MongoKitten3AQTO", "valNotEquals"]
+- ["11MongoKitten3AQTO7AQTTypeO", "RawValue"]
+- ["11MongoKitten3AQTO7AQTTypeO", "_Default_RawValue"]
+- ["11MongoKitten3AQTO7AQTTypeO", "array"]
+- ["11MongoKitten3AQTO7AQTTypeO", "binary"]
+- ["11MongoKitten3AQTO7AQTTypeO", "boolean"]
+- ["11MongoKitten3AQTO7AQTTypeO", "dateTime"]
+- ["11MongoKitten3AQTO7AQTTypeO", "decimal128"]
+- ["11MongoKitten3AQTO7AQTTypeO", "deinit"]
+- ["11MongoKitten3AQTO7AQTTypeO", "document"]
+- ["11MongoKitten3AQTO7AQTTypeO", "double"]
+- ["11MongoKitten3AQTO7AQTTypeO", "hash"]
+- ["11MongoKitten3AQTO7AQTTypeO", "hashValue"]
+- ["11MongoKitten3AQTO7AQTTypeO", "init"]
+- ["11MongoKitten3AQTO7AQTTypeO", "int32"]
+- ["11MongoKitten3AQTO7AQTTypeO", "int64"]
+- ["11MongoKitten3AQTO7AQTTypeO", "jsCode"]
+- ["11MongoKitten3AQTO7AQTTypeO", "jsCodeWithScope"]
+- ["11MongoKitten3AQTO7AQTTypeO", "maxKey"]
+- ["11MongoKitten3AQTO7AQTTypeO", "minKey"]
+- ["11MongoKitten3AQTO7AQTTypeO", "null"]
+- ["11MongoKitten3AQTO7AQTTypeO", "number"]
+- ["11MongoKitten3AQTO7AQTTypeO", "objectId"]
+- ["11MongoKitten3AQTO7AQTTypeO", "precisely"]
+- ["11MongoKitten3AQTO7AQTTypeO", "rawValue"]
+- ["11MongoKitten3AQTO7AQTTypeO", "regex"]
+- ["11MongoKitten3AQTO7AQTTypeO", "string"]
+- ["11MongoKitten3AQTO7AQTTypeO", "timestamp"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "first"]
+- !private ["Sa", "makeBinary"]
+- !private ["Sa", "map"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "first"]
+- !private ["s13ArrayProtocolP", "makeBinary"]
+- !private ["s13ArrayProtocolP", "map"]
+- !private ["SK", "Query"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "first"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "makeBinary"]
+- !private ["SK", "map"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["Sl", "Query"]
+- !private ["Sl", "append"]
+- !private ["Sl", "arrayRepresentation"]
+- !private ["Sl", "count"]
+- !private ["Sl", "first"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "keys"]
+- !private ["Sl", "makeBinary"]
+- !private ["Sl", "map"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "type"]
+- !private ["SL", "Query"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- ["s28CustomDebugStringConvertibleP", "Options"]
+- !private ["s28CustomDebugStringConvertibleP", "Query"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "arrayDocument"]
+- !private ["s28CustomDebugStringConvertibleP", "arrayRepresentation"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "document"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "keys"]
+- !private ["s28CustomDebugStringConvertibleP", "makeBinary"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "type"]
+- !private ["s29CustomPlaygroundQuickLookableP", "Query"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "Query"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "arrayDocument"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "document"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "makeBinary"]
+- !private ["s17CustomReflectableP", "map"]
+- ["s23CustomStringConvertibleP", "Options"]
+- !private ["s23CustomStringConvertibleP", "Query"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "makeBinary"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["Se", "Query"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "arrayDocument"]
+- !private ["Se", "arrayRepresentation"]
+- !private ["Se", "count"]
+- !private ["Se", "document"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "keys"]
+- !private ["Se", "makeBinary"]
+- !private ["Se", "map"]
+- !private ["Se", "subscript"]
+- !private ["Se", "type"]
+- !private ["4BSON8DocumentV", "arrayRepresentation"]
+- !private ["4BSON8DocumentV", "count"]
+- !private ["4BSON8DocumentV", "first"]
+- !private ["4BSON8DocumentV", "init"]
+- !private ["4BSON8DocumentV", "keys"]
+- !private ["4BSON8DocumentV", "map"]
+- !private ["4BSON8DocumentV", "subscript"]
+- !private ["4BSON8DocumentV", "type"]
+- !private ["4BSON11ElementTypeO", "arrayDocument"]
+- !private ["4BSON11ElementTypeO", "document"]
+- !private ["SE", "Query"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "arrayDocument"]
+- !private ["SE", "arrayRepresentation"]
+- !private ["SE", "count"]
+- !private ["SE", "document"]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "keys"]
+- !private ["SE", "makeBinary"]
+- !private ["SE", "map"]
+- !private ["SE", "subscript"]
+- !private ["SE", "type"]
+- !private ["SQ", "AQT"]
+- !private ["SQ", "Document"]
+- !private ["SQ", "GeometryOperator"]
+- ["SQ", "Options"]
+- !private ["SQ", "Query"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "RegularExpression"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "anchorsMatchLines"]
+- ["SQ", "and"]
+- !private ["SQ", "append"]
+- !private ["SQ", "arrayDocument"]
+- !private ["SQ", "arrayRepresentation"]
+- ["SQ", "contains"]
+- ["SQ", "containsElement"]
+- !private ["SQ", "count"]
+- !private ["SQ", "document"]
+- !private ["SQ", "double"]
+- ["SQ", "endsWith"]
+- ["SQ", "exactly"]
+- ["SQ", "exists"]
+- !private ["SQ", "first"]
+- ["SQ", "geoIntersects"]
+- ["SQ", "geoWithin"]
+- ["SQ", "greaterThan"]
+- ["SQ", "greaterThanOrEqual"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "in"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "int32"]
+- !private ["SQ", "int64"]
+- !private ["SQ", "keys"]
+- !private ["SQ", "makeBinary"]
+- !private ["SQ", "map"]
+- ["SQ", "near"]
+- ["SQ", "nearSphere"]
+- ["SQ", "not"]
+- ["SQ", "nothing"]
+- !private ["SQ", "number"]
+- ["SQ", "or"]
+- !private ["SQ", "print"]
+- ["SQ", "rawValue"]
+- ["SQ", "smallerThan"]
+- ["SQ", "smallerThanOrEqual"]
+- ["SQ", "startsWith"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "type"]
+- ["SQ", "typeof"]
+- ["SQ", "valEquals"]
+- ["SQ", "valNotEquals"]
+- !private ["s25ExpressibleByArrayLiteralP", "anchorsMatchLines"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "arrayRepresentation"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "keys"]
+- !private ["s25ExpressibleByArrayLiteralP", "makeBinary"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "type"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Document"]
+- ["s30ExpressibleByDictionaryLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Query"]
+- ["s30ExpressibleByDictionaryLiteralP", "StringLiteralType"]
+- ["s30ExpressibleByDictionaryLiteralP", "UnicodeScalarLiteralType"]
+- ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- ["s30ExpressibleByDictionaryLiteralP", ""]
+- ["s30ExpressibleByDictionaryLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s30ExpressibleByDictionaryLiteralP", "_Default_Key"]
+- ["s30ExpressibleByDictionaryLiteralP", "_Default_StringLiteralType"]
+- ["s30ExpressibleByDictionaryLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s30ExpressibleByDictionaryLiteralP", "_Default_Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "aqt"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "arrayRepresentation"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "count"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "first"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "keys"]
+- ["s30ExpressibleByDictionaryLiteralP", "makeBinary"]
+- ["s30ExpressibleByDictionaryLiteralP", "makePrimitive"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "map"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "queryDocument"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "textSearch"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "type"]
+- ["s30ExpressibleByDictionaryLiteralP", "typeIdentifier"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Document"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Key"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Query"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "Value"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_Key"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_StringLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "_Default_Value"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "aqt"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "makeBinary"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "makePrimitive"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "queryDocument"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "textSearch"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "typeIdentifier"]
+- !private ["s23ExpressibleByNilLiteralP", "arrayDocument"]
+- !private ["s23ExpressibleByNilLiteralP", "document"]
+- !private ["s26ExpressibleByStringLiteralP", "Document"]
+- ["s26ExpressibleByStringLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "Key"]
+- !private ["s26ExpressibleByStringLiteralP", "Query"]
+- ["s26ExpressibleByStringLiteralP", "StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "Value"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s26ExpressibleByStringLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_Key"]
+- ["s26ExpressibleByStringLiteralP", "_Default_StringLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s26ExpressibleByStringLiteralP", "_Default_Value"]
+- !private ["s26ExpressibleByStringLiteralP", "aqt"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "makeBinary"]
+- ["s26ExpressibleByStringLiteralP", "makePrimitive"]
+- !private ["s26ExpressibleByStringLiteralP", "queryDocument"]
+- !private ["s26ExpressibleByStringLiteralP", "textSearch"]
+- ["s26ExpressibleByStringLiteralP", "typeIdentifier"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Document"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Key"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "Query"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "Value"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_Key"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_StringLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_UnicodeScalarLiteralType"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "_Default_Value"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "aqt"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "makeBinary"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "makePrimitive"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "queryDocument"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "textSearch"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "typeIdentifier"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "Query"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "_getBuiltinLogicValue"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "arrayRepresentation"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "count"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "first"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "init"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "init"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "keys"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "map"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "subscript"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "type"]
+- !private ["7GeoJSON8GeometryP", "type"]
+- !private ["7GeoJSON16GeometryOperatorV", "init"]
+- !private ["7GeoJSON16GeometryOperatorV", "makeDocument"]
+- ["SH", "Options"]
+- !private ["SH", "Query"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "append"]
+- !private ["SH", "arrayDocument"]
+- !private ["SH", "count"]
+- !private ["SH", "document"]
+- !private ["SH", "double"]
+- !private ["SH", "first"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "int32"]
+- !private ["SH", "int64"]
+- !private ["SH", "makeBinary"]
+- !private ["SH", "map"]
+- !private ["SH", "number"]
+- ["SH", "rawValue"]
+- !private ["s6HasherV", "combine"]
+- !private ["s25LosslessStringConvertibleP", "Query"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "Query"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "first"]
+- !private ["SM", "makeBinary"]
+- !private ["SM", "map"]
+- ["10Foundation8NSCodingP", "Options"]
+- ["10Foundation9NSCopyingP", "Options"]
+- ["10Foundation8NSObjectC", "Options"]
+- ["10Foundation16NSObjectProtocolP", "Options"]
+- ["10Foundation19NSRegularExpressionC", "Options"]
+- !private ["s9OptionSetP", "anchorsMatchLines"]
+- !private ["Sq", "arrayDocument"]
+- !private ["Sq", "document"]
+- !private ["10Foundation19NSRegularExpressionC7OptionsV", "anchorsMatchLines"]
+- !private ["4BSON9PrimitiveP", "Document"]
+- ["4BSON9PrimitiveP", "ExtendedGraphemeClusterLiteralType"]
+- ["4BSON9PrimitiveP", "Key"]
+- !private ["4BSON9PrimitiveP", "Query"]
+- ["4BSON9PrimitiveP", "StringLiteralType"]
+- ["4BSON9PrimitiveP", "UnicodeScalarLiteralType"]
+- ["4BSON9PrimitiveP", "Value"]
+- ["4BSON9PrimitiveP", ""]
+- ["4BSON9PrimitiveP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["4BSON9PrimitiveP", "_Default_Key"]
+- ["4BSON9PrimitiveP", "_Default_StringLiteralType"]
+- ["4BSON9PrimitiveP", "_Default_UnicodeScalarLiteralType"]
+- ["4BSON9PrimitiveP", "_Default_Value"]
+- !private ["4BSON9PrimitiveP", "_getBuiltinLogicValue"]
+- !private ["4BSON9PrimitiveP", "append"]
+- !private ["4BSON9PrimitiveP", "aqt"]
+- !private ["4BSON9PrimitiveP", "arrayRepresentation"]
+- !private ["4BSON9PrimitiveP", "count"]
+- !private ["4BSON9PrimitiveP", "first"]
+- ["4BSON9PrimitiveP", "init"]
+- !private ["4BSON9PrimitiveP", "init"]
+- !private ["4BSON9PrimitiveP", "keys"]
+- ["4BSON9PrimitiveP", "makeBinary"]
+- ["4BSON9PrimitiveP", "makePrimitive"]
+- !private ["4BSON9PrimitiveP", "map"]
+- !private ["4BSON9PrimitiveP", "queryDocument"]
+- !private ["4BSON9PrimitiveP", "subscript"]
+- !private ["4BSON9PrimitiveP", "textSearch"]
+- !private ["4BSON9PrimitiveP", "type"]
+- ["4BSON9PrimitiveP", "typeIdentifier"]
+- ["11MongoKitten5QueryV", "AQT"]
+- ["11MongoKitten5QueryV", "BSON"]
+- ["11MongoKitten5QueryV", "Bool"]
+- ["11MongoKitten5QueryV", "Document"]
+- ["11MongoKitten5QueryV", "ExtendedGraphemeClusterLiteralType"]
+- ["11MongoKitten5QueryV", "Key"]
+- ["11MongoKitten5QueryV", "Query"]
+- ["11MongoKitten5QueryV", "String"]
+- ["11MongoKitten5QueryV", "StringLiteralType"]
+- ["11MongoKitten5QueryV", "UnicodeScalarLiteralType"]
+- ["11MongoKitten5QueryV", "Value"]
+- ["11MongoKitten5QueryV", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["11MongoKitten5QueryV", "_Default_Key"]
+- ["11MongoKitten5QueryV", "_Default_StringLiteralType"]
+- ["11MongoKitten5QueryV", "_Default_UnicodeScalarLiteralType"]
+- ["11MongoKitten5QueryV", "_Default_Value"]
+- ["11MongoKitten5QueryV", "aqt"]
+- ["11MongoKitten5QueryV", "deinit"]
+- ["11MongoKitten5QueryV", "init"]
+- ["11MongoKitten5QueryV", "makeBinary"]
+- ["11MongoKitten5QueryV", "makeDocument"]
+- ["11MongoKitten5QueryV", "makePrimitive"]
+- ["11MongoKitten5QueryV", "queryDocument"]
+- ["11MongoKitten5QueryV", "textSearch"]
+- ["11MongoKitten5QueryV", "typeIdentifier"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "first"]
+- !private ["Sk", "makeBinary"]
+- !private ["Sk", "map"]
+- !private ["Sm", "Query"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "first"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "makeBinary"]
+- !private ["Sm", "map"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "anchorsMatchLines"]
+- !private ["SY", "arrayDocument"]
+- !private ["SY", "document"]
+- !private ["SY", "double"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "int32"]
+- !private ["SY", "int64"]
+- !private ["SY", "number"]
+- ["SY", "rawValue"]
+- !private ["4BSON17RegularExpressionV", "init"]
+- !private ["ST", "Query"]
+- !private ["ST", "append"]
+- !private ["ST", "arrayRepresentation"]
+- !private ["ST", "count"]
+- !private ["ST", "first"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "keys"]
+- !private ["ST", "makeBinary"]
+- !private ["ST", "map"]
+- !private ["ST", "subscript"]
+- !private ["ST", "type"]
+- !private ["s10SetAlgebraP", "anchorsMatchLines"]
+- ["SS", "Primitive"]
+- ["SS", "Query"]
+- ["SS", "in"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "Query"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["4BSON23SubscriptExpressionTypeP", "Query"]
+- !private ["4BSON23SubscriptExpressionTypeP", "init"]
+- !private ["4BSON23SubscriptExpressionTypeP", "init"]
+- !private ["s16TextOutputStreamP", "Query"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "Query"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["7Cheetah5ValueP", "Query"]
+- !private ["7Cheetah5ValueP", "_getBuiltinLogicValue"]
+- !private ["7Cheetah5ValueP", "append"]
+- !private ["7Cheetah5ValueP", "count"]
+- !private ["7Cheetah5ValueP", "first"]
+- !private ["7Cheetah5ValueP", "init"]
+- !private ["7Cheetah5ValueP", "init"]
+- !private ["7Cheetah5ValueP", "makeBinary"]
+- !private ["7Cheetah5ValueP", "map"]
+- !private ["11MongoKitten16ValueConvertibleP", "Document"]
+- ["11MongoKitten16ValueConvertibleP", "ExtendedGraphemeClusterLiteralType"]
+- ["11MongoKitten16ValueConvertibleP", "Key"]
+- !private ["11MongoKitten16ValueConvertibleP", "Query"]
+- ["11MongoKitten16ValueConvertibleP", "StringLiteralType"]
+- ["11MongoKitten16ValueConvertibleP", "UnicodeScalarLiteralType"]
+- ["11MongoKitten16ValueConvertibleP", "Value"]
+- ["11MongoKitten16ValueConvertibleP", ""]
+- ["11MongoKitten16ValueConvertibleP", "_Default_ExtendedGraphemeClusterLiteralType"]
+- ["11MongoKitten16ValueConvertibleP", "_Default_Key"]
+- ["11MongoKitten16ValueConvertibleP", "_Default_StringLiteralType"]
+- ["11MongoKitten16ValueConvertibleP", "_Default_UnicodeScalarLiteralType"]
+- ["11MongoKitten16ValueConvertibleP", "_Default_Value"]
+- !private ["11MongoKitten16ValueConvertibleP", "aqt"]
+- ["11MongoKitten16ValueConvertibleP", "init"]
+- ["11MongoKitten16ValueConvertibleP", "makeBinary"]
+- ["11MongoKitten16ValueConvertibleP", "makePrimitive"]
+- !private ["11MongoKitten16ValueConvertibleP", "queryDocument"]
+- !private ["11MongoKitten16ValueConvertibleP", "textSearch"]
+- ["11MongoKitten16ValueConvertibleP", "typeIdentifier"]
+- !private ["10Foundation13_CFBridgeableP", "Query"]
+- !private ["10Foundation13_CFBridgeableP", "_getBuiltinLogicValue"]
+- !private ["10Foundation13_CFBridgeableP", "append"]
+- !private ["10Foundation13_CFBridgeableP", "count"]
+- !private ["10Foundation13_CFBridgeableP", "first"]
+- !private ["10Foundation13_CFBridgeableP", "init"]
+- !private ["10Foundation13_CFBridgeableP", "init"]
+- !private ["10Foundation13_CFBridgeableP", "makeBinary"]
+- !private ["10Foundation13_CFBridgeableP", "map"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s24_DestructorSafeContainerP", "makeBinary"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "Query"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "Query"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "Query"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "Query"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "Query"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "makeBinary"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["10Foundation13_NSBridgeableP", "Query"]
+- !private ["10Foundation13_NSBridgeableP", "append"]
+- !private ["10Foundation13_NSBridgeableP", "count"]
+- !private ["10Foundation13_NSBridgeableP", "first"]
+- !private ["10Foundation13_NSBridgeableP", "init"]
+- !private ["10Foundation13_NSBridgeableP", "init"]
+- !private ["10Foundation13_NSBridgeableP", "makeBinary"]
+- !private ["10Foundation13_NSBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "Query"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "makeBinary"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s26_OptionalNilComparisonTypeV", "arrayDocument"]
+- !private ["s26_OptionalNilComparisonTypeV", "document"]
+- !private ["s16_SwiftStringViewP", "Query"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s12_UnwrappableP", "arrayDocument"]
+- !private ["s12_UnwrappableP", "document"]
+depends-nominal:
+- "11MongoKitten3AQTO"
+- "11MongoKitten3AQTO7AQTTypeO"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "4BSON8DocumentV"
+- !private "4BSON11ElementTypeO"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "11MongoKitten23ExpressionRepresentableP"
+- !private "7GeoJSON8GeometryP"
+- !private "7GeoJSON16GeometryOperatorV"
+- "SH"
+- !private "s6HasherV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- "10Foundation8NSCodingP"
+- "10Foundation9NSCopyingP"
+- "10Foundation8NSObjectC"
+- "10Foundation16NSObjectProtocolP"
+- "10Foundation19NSRegularExpressionC"
+- !private "s9OptionSetP"
+- !private "Sq"
+- !private "10Foundation19NSRegularExpressionC7OptionsV"
+- "4BSON9PrimitiveP"
+- "11MongoKitten5QueryV"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "4BSON17RegularExpressionV"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- "SS"
+- !private "Sy"
+- !private "4BSON23SubscriptExpressionTypeP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "7Cheetah5ValueP"
+- "11MongoKitten16ValueConvertibleP"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation13_NSBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_OptionalNilComparisonTypeV"
+- !private "s16_SwiftStringViewP"
+- !private "s12_UnwrappableP"
+depends-dynamic-lookup:
+depends-external:
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/ExtendedJSON.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/GeoJSON.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/Cheetah.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/MongoSocket.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/perfectbuild/.build/checkouts/Perfect-COpenSSL-Linux.git--1861912504770719538/Sources/COpenSSL/module.modulemap"
+interface-hash: "d0034772c4faa495367a733c46d65ffa"

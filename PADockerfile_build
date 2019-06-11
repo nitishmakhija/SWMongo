@@ -1,0 +1,4 @@
+FROM perfectlysoft/perfectassistant:4.2.1
+# Perfect-COpenSSL-Linux.git--1861912504770719538/PADockerfile
+RUN apt-get -y update && apt-get install -y libssl-dev
+RUN rm -rf /var/lib/apt/lists/*

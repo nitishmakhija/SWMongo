@@ -1,0 +1,815 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "JSONEncoder"
+- "JSONDecoder"
+provides-nominal:
+- "7Cheetah11JSONEncoderC"
+- "7Cheetah11JSONDecoderC"
+provides-member:
+- ["7Cheetah11JSONEncoderC", ""]
+- ["7Cheetah11JSONDecoderC", ""]
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "+="
+- !private "<"
+- !private "<="
+- "=="
+- !private ">"
+- !private ">="
+- !private "??"
+- "AnyObject"
+- "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CastingPrecedence"
+- !private "Cheetah"
+- "CodingKey"
+- "CodingUserInfoKey"
+- "Decodable"
+- "Decoder"
+- !private "DecodingError"
+- "Dictionary"
+- "Double"
+- "Encodable"
+- "Encoder"
+- !private "EncodingError"
+- "Float"
+- "FloatLiteralType"
+- "Int"
+- "Int16"
+- "Int32"
+- "Int64"
+- "Int8"
+- "IntegerLiteralType"
+- "JSONArray"
+- "JSONDecoder"
+- "JSONEncoder"
+- "JSONObject"
+- "KeyedDecodingContainer"
+- "KeyedDecodingContainerProtocol"
+- "KeyedEncodingContainer"
+- "KeyedEncodingContainerProtocol"
+- !private "NSNull"
+- "SingleValueDecodingContainer"
+- "SingleValueEncodingContainer"
+- "String"
+- "StringLiteralType"
+- "UInt"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+- "UnkeyedDecodingContainer"
+- "UnkeyedEncodingContainer"
+- "Value"
+- "_JSONCodingPathContaining"
+- "_JSONDecoder"
+- "_JSONEncoder"
+- "_JSONFakePrimitiveValue"
+- !private "_JSONKeyedDecodingContainer"
+- !private "_JSONKeyedEncodingContainer"
+- !private "_JSONSingleValueDecodingContainer"
+- !private "_JSONSingleValueEncodingContainer"
+- !private "_JSONSuperKey"
+- !private "_JSONUnkeyedDecodingContainer"
+- !private "_JSONUnkeyedEncodingContainer"
+- !private "_JSONUnkeyedIndexKey"
+- !private "_findStringSwitchCase"
+- !private "print"
+- !private "type"
+- !private "unwrap"
+- !private "~="
+depends-member:
+- !private ["Sa", "append"]
+- !private ["Sa", "compactMap"]
+- ["Sa", "deinit"]
+- !private ["Sa", "remove"]
+- !private ["Sa", "removeLast"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "compactMap"]
+- !private ["s13ArrayProtocolP", "remove"]
+- !private ["s13ArrayProtocolP", "removeLast"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["SK", "append"]
+- !private ["SK", "compactMap"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "remove"]
+- !private ["SK", "removeLast"]
+- !private ["SK", "subscript"]
+- !private ["SB", "init"]
+- !private ["Sz", "init"]
+- !private ["Sz", "max"]
+- !private ["Sz", "min"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "max"]
+- !private ["s7CVarArgP", "min"]
+- ["s9CodingKeyP", "RawValue"]
+- !private ["s9CodingKeyP", "String"]
+- !private ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- !private ["s9CodingKeyP", "index"]
+- ["s9CodingKeyP", "init"]
+- !private ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- !private ["s9CodingKeyP", "super"]
+- !private ["Sl", "append"]
+- !private ["Sl", "compactMap"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "remove"]
+- !private ["Sl", "removeLast"]
+- !private ["Sl", "subscript"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["SL", "max"]
+- !private ["SL", "min"]
+- !private ["s13DecodingErrorO7ContextV", "init"]
+- !private ["s13EncodingErrorO7ContextV", "init"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "index"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- !private ["s28CustomDebugStringConvertibleP", "removeLast"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "super"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "max"]
+- !private ["s29CustomPlaygroundQuickLookableP", "min"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "max"]
+- !private ["s17CustomReflectableP", "min"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "removeLast"]
+- !private ["s17CustomReflectableP", "subscript"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- !private ["s23CustomStringConvertibleP", "index"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- !private ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "min"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- !private ["s23CustomStringConvertibleP", "removeLast"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "super"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "compactMap"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "max"]
+- !private ["Se", "min"]
+- !private ["Se", "remove"]
+- !private ["Se", "removeLast"]
+- !private ["Se", "subscript"]
+- !private ["s7DecoderP", "Bool"]
+- !private ["s7DecoderP", "Cheetah"]
+- !private ["s7DecoderP", "DecodingError"]
+- !private ["s7DecoderP", "Double"]
+- !private ["s7DecoderP", "Float"]
+- !private ["s7DecoderP", "Int"]
+- !private ["s7DecoderP", "Int16"]
+- !private ["s7DecoderP", "Int32"]
+- !private ["s7DecoderP", "Int64"]
+- !private ["s7DecoderP", "Int8"]
+- !private ["s7DecoderP", "JSONArray"]
+- !private ["s7DecoderP", "JSONObject"]
+- !private ["s7DecoderP", "KeyedDecodingContainer"]
+- !private ["s7DecoderP", "UInt"]
+- !private ["s7DecoderP", "UInt16"]
+- !private ["s7DecoderP", "UInt32"]
+- !private ["s7DecoderP", "UInt8"]
+- !private ["s7DecoderP", ""]
+- !private ["s7DecoderP", "_JSONDecoder"]
+- !private ["s7DecoderP", "_JSONKeyedDecodingContainer"]
+- !private ["s7DecoderP", "_JSONSingleValueDecodingContainer"]
+- !private ["s7DecoderP", "_JSONUnkeyedDecodingContainer"]
+- ["s7DecoderP", "codingPath"]
+- ["s7DecoderP", "container"]
+- !private ["s7DecoderP", "decode"]
+- !private ["s7DecoderP", "init"]
+- ["s7DecoderP", "singleValueContainer"]
+- !private ["s7DecoderP", "target"]
+- !private ["s7DecoderP", "type"]
+- ["s7DecoderP", "unkeyedContainer"]
+- !private ["s7DecoderP", "unwrap"]
+- ["s7DecoderP", "userInfo"]
+- !private ["s7DecoderP", "with"]
+- !private ["s13DecodingErrorO", "Context"]
+- !private ["s13DecodingErrorO", "dataCorrupted"]
+- !private ["s13DecodingErrorO", "typeMismatch"]
+- !private ["s13DecodingErrorO", "valueNotFound"]
+- ["SD", "deinit"]
+- !private ["Sd", "deinit"]
+- !private ["Sd", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "compactMap"]
+- !private ["SE", "encode"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "max"]
+- !private ["SE", "min"]
+- !private ["SE", "remove"]
+- !private ["SE", "removeLast"]
+- !private ["SE", "subscript"]
+- !private ["s7EncoderP", "Double"]
+- !private ["s7EncoderP", "EncodingError"]
+- !private ["s7EncoderP", "Int"]
+- !private ["s7EncoderP", "JSONArray"]
+- !private ["s7EncoderP", "JSONObject"]
+- !private ["s7EncoderP", "KeyedEncodingContainer"]
+- !private ["s7EncoderP", "UInt"]
+- !private ["s7EncoderP", ""]
+- !private ["s7EncoderP", "_JSONEncoder"]
+- !private ["s7EncoderP", "_JSONKeyedEncodingContainer"]
+- !private ["s7EncoderP", "_JSONSingleValueEncodingContainer"]
+- !private ["s7EncoderP", "_JSONUnkeyedEncodingContainer"]
+- ["s7EncoderP", "codingPath"]
+- ["s7EncoderP", "container"]
+- !private ["s7EncoderP", "convert"]
+- !private ["s7EncoderP", "encode"]
+- !private ["s7EncoderP", "init"]
+- ["s7EncoderP", "singleValueContainer"]
+- !private ["s7EncoderP", "target"]
+- ["s7EncoderP", "unkeyedContainer"]
+- ["s7EncoderP", "userInfo"]
+- !private ["s7EncoderP", "with"]
+- !private ["s13EncodingErrorO", "Context"]
+- !private ["s13EncodingErrorO", "invalidValue"]
+- ["SQ", "RawValue"]
+- !private ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "compactMap"]
+- !private ["SQ", "count"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- !private ["SQ", "keys"]
+- !private ["SQ", "max"]
+- !private ["SQ", "min"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "removeLast"]
+- !private ["SQ", "storage"]
+- ["SQ", "stringValue"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "super"]
+- !private ["s5ErrorP", "Context"]
+- !private ["s5ErrorP", "dataCorrupted"]
+- !private ["s5ErrorP", "invalidValue"]
+- !private ["s5ErrorP", "typeMismatch"]
+- !private ["s5ErrorP", "valueNotFound"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeLast"]
+- !private ["s25ExpressibleByArrayLiteralP", "storage"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "keys"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "max"]
+- !private ["s27ExpressibleByIntegerLiteralP", "min"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["s17FixedWidthIntegerP", "max"]
+- !private ["s17FixedWidthIntegerP", "min"]
+- !private ["Sf", "init"]
+- !private ["SF", "init"]
+- ["SH", "RawValue"]
+- !private ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "append"]
+- !private ["SH", "compactMap"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- !private ["SH", "max"]
+- !private ["SH", "min"]
+- ["SH", "rawValue"]
+- !private ["SH", "remove"]
+- !private ["SH", "removeLast"]
+- ["SH", "stringValue"]
+- !private ["SH", "subscript"]
+- !private ["SH", "super"]
+- !private ["s6HasherV", "combine"]
+- !private ["Si", "deinit"]
+- !private ["Si", "init"]
+- !private ["Si", "max"]
+- !private ["Si", "min"]
+- !private ["s5Int16V", "init"]
+- !private ["s5Int16V", "max"]
+- !private ["s5Int16V", "min"]
+- !private ["s5Int32V", "init"]
+- !private ["s5Int32V", "max"]
+- !private ["s5Int32V", "min"]
+- !private ["s5Int64V", "init"]
+- !private ["s4Int8V", "init"]
+- !private ["s4Int8V", "max"]
+- !private ["s4Int8V", "min"]
+- ["7Cheetah9JSONArrayV", "Int"]
+- ["7Cheetah9JSONArrayV", "Value"]
+- !private ["7Cheetah9JSONArrayV", "append"]
+- !private ["7Cheetah9JSONArrayV", "count"]
+- !private ["7Cheetah9JSONArrayV", "deinit"]
+- !private ["7Cheetah9JSONArrayV", "init"]
+- !private ["7Cheetah9JSONArrayV", "storage"]
+- !private ["7Cheetah9JSONArrayV", "subscript"]
+- ["7Cheetah11JSONDecoderC", "Decodable"]
+- ["7Cheetah11JSONDecoderC", "JSONArray"]
+- ["7Cheetah11JSONDecoderC", "JSONObject"]
+- ["7Cheetah11JSONDecoderC", "String"]
+- !private ["7Cheetah11JSONDecoderC", "_JSONDecoder"]
+- ["7Cheetah11JSONDecoderC", "decode"]
+- ["7Cheetah11JSONDecoderC", "init"]
+- ["7Cheetah11JSONEncoderC", "Encodable"]
+- ["7Cheetah11JSONEncoderC", "JSONArray"]
+- ["7Cheetah11JSONEncoderC", "JSONObject"]
+- ["7Cheetah11JSONEncoderC", "Value"]
+- !private ["7Cheetah11JSONEncoderC", "_JSONEncoder"]
+- ["7Cheetah11JSONEncoderC", "encode"]
+- ["7Cheetah11JSONEncoderC", "encodeArray"]
+- ["7Cheetah11JSONEncoderC", "init"]
+- !private ["7Cheetah10JSONObjectV", "deinit"]
+- !private ["7Cheetah10JSONObjectV", "init"]
+- !private ["7Cheetah10JSONObjectV", "keys"]
+- !private ["7Cheetah10JSONObjectV", "subscript"]
+- !private ["s22KeyedDecodingContainerV", "init"]
+- ["s30KeyedDecodingContainerProtocolP", "Key"]
+- !private ["s30KeyedDecodingContainerProtocolP", ""]
+- ["s30KeyedDecodingContainerProtocolP", "_Default_Key"]
+- !private ["s30KeyedDecodingContainerProtocolP", "_JSONDecoder"]
+- !private ["s30KeyedDecodingContainerProtocolP", "_JSONSuperKey"]
+- ["s30KeyedDecodingContainerProtocolP", "allKeys"]
+- ["s30KeyedDecodingContainerProtocolP", "codingPath"]
+- ["s30KeyedDecodingContainerProtocolP", "contains"]
+- ["s30KeyedDecodingContainerProtocolP", "decode"]
+- ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- ["s30KeyedDecodingContainerProtocolP", "decodeNil"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decoder"]
+- !private ["s30KeyedDecodingContainerProtocolP", "init"]
+- ["s30KeyedDecodingContainerProtocolP", "nestedContainer"]
+- !private ["s30KeyedDecodingContainerProtocolP", "nestedDecoder"]
+- ["s30KeyedDecodingContainerProtocolP", "nestedUnkeyedContainer"]
+- !private ["s30KeyedDecodingContainerProtocolP", "print"]
+- ["s30KeyedDecodingContainerProtocolP", "superDecoder"]
+- !private ["s22KeyedEncodingContainerV", "init"]
+- ["s30KeyedEncodingContainerProtocolP", "Key"]
+- !private ["s30KeyedEncodingContainerProtocolP", ""]
+- !private ["s30KeyedEncodingContainerProtocolP", "_JSONEncoder"]
+- !private ["s30KeyedEncodingContainerProtocolP", "_JSONSuperKey"]
+- ["s30KeyedEncodingContainerProtocolP", "codingPath"]
+- ["s30KeyedEncodingContainerProtocolP", "encode"]
+- ["s30KeyedEncodingContainerProtocolP", "encodeConditional"]
+- ["s30KeyedEncodingContainerProtocolP", "encodeIfPresent"]
+- ["s30KeyedEncodingContainerProtocolP", "encodeNil"]
+- !private ["s30KeyedEncodingContainerProtocolP", "encoder"]
+- !private ["s30KeyedEncodingContainerProtocolP", "init"]
+- ["s30KeyedEncodingContainerProtocolP", "nestedContainer"]
+- !private ["s30KeyedEncodingContainerProtocolP", "nestedEncoder"]
+- ["s30KeyedEncodingContainerProtocolP", "nestedUnkeyedContainer"]
+- ["s30KeyedEncodingContainerProtocolP", "superEncoder"]
+- !private ["s30KeyedEncodingContainerProtocolP", "with"]
+- !private ["10Foundation14LocalizedErrorP", "Context"]
+- !private ["10Foundation14LocalizedErrorP", "dataCorrupted"]
+- !private ["10Foundation14LocalizedErrorP", "invalidValue"]
+- !private ["10Foundation14LocalizedErrorP", "typeMismatch"]
+- !private ["10Foundation14LocalizedErrorP", "valueNotFound"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "max"]
+- !private ["s25LosslessStringConvertibleP", "min"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "max"]
+- !private ["s10MirrorPathP", "min"]
+- !private ["SM", "append"]
+- !private ["SM", "compactMap"]
+- !private ["SM", "remove"]
+- !private ["SM", "removeLast"]
+- !private ["SM", "subscript"]
+- !private ["10Foundation8NSCodingP", "init"]
+- !private ["10Foundation9NSCopyingP", "init"]
+- !private ["10Foundation6NSNullC", "deinit"]
+- !private ["10Foundation6NSNullC", "init"]
+- !private ["10Foundation8NSObjectC", "init"]
+- !private ["10Foundation16NSObjectProtocolP", "init"]
+- !private ["10Foundation14NSSecureCodingP", "init"]
+- !private ["Sj", "init"]
+- !private ["Sj", "max"]
+- !private ["Sj", "min"]
+- !private ["Sk", "append"]
+- !private ["Sk", "compactMap"]
+- !private ["Sk", "remove"]
+- !private ["Sk", "removeLast"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "compactMap"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "remove"]
+- !private ["Sm", "removeLast"]
+- !private ["Sm", "subscript"]
+- ["SY", "RawValue"]
+- !private ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- !private ["SY", "super"]
+- !private ["ST", "append"]
+- !private ["ST", "compactMap"]
+- !private ["ST", "count"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "keys"]
+- !private ["ST", "remove"]
+- !private ["ST", "removeLast"]
+- !private ["ST", "storage"]
+- !private ["ST", "subscript"]
+- !private ["SZ", "init"]
+- !private ["SZ", "max"]
+- !private ["SZ", "min"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s13SignedNumericP", "max"]
+- !private ["s13SignedNumericP", "min"]
+- !private ["s28SingleValueDecodingContainerP", "Cheetah"]
+- !private ["s28SingleValueDecodingContainerP", ""]
+- ["s28SingleValueDecodingContainerP", "codingPath"]
+- ["s28SingleValueDecodingContainerP", "decode"]
+- ["s28SingleValueDecodingContainerP", "decodeNil"]
+- !private ["s28SingleValueDecodingContainerP", "decoder"]
+- !private ["s28SingleValueDecodingContainerP", "init"]
+- !private ["s28SingleValueDecodingContainerP", "unwrap"]
+- !private ["s28SingleValueEncodingContainerP", ""]
+- ["s28SingleValueEncodingContainerP", "codingPath"]
+- ["s28SingleValueEncodingContainerP", "encode"]
+- ["s28SingleValueEncodingContainerP", "encodeNil"]
+- !private ["s28SingleValueEncodingContainerP", "encoder"]
+- !private ["s28SingleValueEncodingContainerP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- !private ["Sx", "max"]
+- !private ["Sx", "min"]
+- !private ["SS", "deinit"]
+- ["SS", "init"]
+- ["SS", "init"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- ["7Cheetah12_JSONDecoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO", "JSONArray"]
+- ["7Cheetah12_JSONEncoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO", "JSONArray"]
+- ["7Cheetah12_JSONDecoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO", "JSONObject"]
+- ["7Cheetah12_JSONEncoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO", "JSONObject"]
+- ["7Cheetah12_JSONDecoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO", "Value"]
+- ["7Cheetah12_JSONEncoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO", "Value"]
+- ["7Cheetah12_JSONDecoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO", "array"]
+- ["7Cheetah12_JSONEncoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO", "array"]
+- ["7Cheetah12_JSONDecoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO", "object"]
+- ["7Cheetah12_JSONEncoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO", "object"]
+- ["7Cheetah12_JSONDecoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO", "primitive"]
+- ["7Cheetah12_JSONEncoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO", "primitive"]
+- ["7Cheetah12_JSONDecoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO", "storedPrimitive"]
+- ["7Cheetah12_JSONDecoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO", "value"]
+- ["7Cheetah12_JSONEncoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO", "value"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["Su", "init"]
+- !private ["Su", "max"]
+- !private ["s6UInt16V", "init"]
+- !private ["s6UInt16V", "max"]
+- !private ["s6UInt16V", "min"]
+- !private ["s6UInt32V", "init"]
+- !private ["s6UInt32V", "max"]
+- !private ["s6UInt32V", "min"]
+- !private ["s5UInt8V", "init"]
+- !private ["s5UInt8V", "max"]
+- !private ["s5UInt8V", "min"]
+- !private ["s24UnkeyedDecodingContainerP", "Decoder"]
+- !private ["s24UnkeyedDecodingContainerP", "DecodingError"]
+- !private ["s24UnkeyedDecodingContainerP", "NSNull"]
+- !private ["s24UnkeyedDecodingContainerP", ""]
+- !private ["s24UnkeyedDecodingContainerP", "_JSONDecoder"]
+- !private ["s24UnkeyedDecodingContainerP", "_JSONUnkeyedIndexKey"]
+- !private ["s24UnkeyedDecodingContainerP", "assertNotAtEnd"]
+- ["s24UnkeyedDecodingContainerP", "codingPath"]
+- ["s24UnkeyedDecodingContainerP", "count"]
+- ["s24UnkeyedDecodingContainerP", "currentIndex"]
+- ["s24UnkeyedDecodingContainerP", "decode"]
+- ["s24UnkeyedDecodingContainerP", "decodeIfPresent"]
+- ["s24UnkeyedDecodingContainerP", "decodeNil"]
+- !private ["s24UnkeyedDecodingContainerP", "decoder"]
+- !private ["s24UnkeyedDecodingContainerP", "init"]
+- ["s24UnkeyedDecodingContainerP", "isAtEnd"]
+- ["s24UnkeyedDecodingContainerP", "nestedContainer"]
+- !private ["s24UnkeyedDecodingContainerP", "nestedDecoder"]
+- ["s24UnkeyedDecodingContainerP", "nestedUnkeyedContainer"]
+- !private ["s24UnkeyedDecodingContainerP", "next"]
+- ["s24UnkeyedDecodingContainerP", "superDecoder"]
+- !private ["s24UnkeyedEncodingContainerP", "KeyedEncodingContainer"]
+- !private ["s24UnkeyedEncodingContainerP", "NSNull"]
+- !private ["s24UnkeyedEncodingContainerP", ""]
+- !private ["s24UnkeyedEncodingContainerP", "_JSONEncoder"]
+- !private ["s24UnkeyedEncodingContainerP", "_JSONKeyedEncodingContainer"]
+- !private ["s24UnkeyedEncodingContainerP", "_JSONUnkeyedEncodingContainer"]
+- ["s24UnkeyedEncodingContainerP", "codingPath"]
+- ["s24UnkeyedEncodingContainerP", "count"]
+- ["s24UnkeyedEncodingContainerP", "encode"]
+- ["s24UnkeyedEncodingContainerP", "encodeConditional"]
+- ["s24UnkeyedEncodingContainerP", "encodeNil"]
+- !private ["s24UnkeyedEncodingContainerP", "encoder"]
+- !private ["s24UnkeyedEncodingContainerP", "init"]
+- ["s24UnkeyedEncodingContainerP", "nestedContainer"]
+- !private ["s24UnkeyedEncodingContainerP", "nestedEncoder"]
+- ["s24UnkeyedEncodingContainerP", "nestedUnkeyedContainer"]
+- ["s24UnkeyedEncodingContainerP", "superEncoder"]
+- !private ["s24UnkeyedEncodingContainerP", "unwrap"]
+- !private ["SU", "init"]
+- !private ["SU", "max"]
+- !private ["SU", "min"]
+- !private ["7Cheetah5ValueP", "_getBuiltinLogicValue"]
+- !private ["7Cheetah5ValueP", "append"]
+- !private ["7Cheetah5ValueP", "compactMap"]
+- !private ["7Cheetah5ValueP", "count"]
+- ["7Cheetah5ValueP", "init"]
+- ["7Cheetah5ValueP", "init"]
+- !private ["7Cheetah5ValueP", "keys"]
+- !private ["7Cheetah5ValueP", "max"]
+- !private ["7Cheetah5ValueP", "min"]
+- !private ["7Cheetah5ValueP", "remove"]
+- !private ["7Cheetah5ValueP", "removeLast"]
+- !private ["7Cheetah5ValueP", "storage"]
+- !private ["7Cheetah5ValueP", "subscript"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s18_BitwiseOperationsP", "max"]
+- !private ["s18_BitwiseOperationsP", "min"]
+- !private ["10Foundation13_CFBridgeableP", "_getBuiltinLogicValue"]
+- !private ["10Foundation13_CFBridgeableP", "append"]
+- !private ["10Foundation13_CFBridgeableP", "compactMap"]
+- ["10Foundation13_CFBridgeableP", "init"]
+- ["10Foundation13_CFBridgeableP", "init"]
+- !private ["10Foundation13_CFBridgeableP", "remove"]
+- !private ["10Foundation13_CFBridgeableP", "removeLast"]
+- !private ["10Foundation13_CFBridgeableP", "subscript"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
+- !private ["s24_DestructorSafeContainerP", "removeLast"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "max"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "min"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "max"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "min"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeLast"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation13_NSBridgeableP", "append"]
+- !private ["10Foundation13_NSBridgeableP", "compactMap"]
+- ["10Foundation13_NSBridgeableP", "init"]
+- ["10Foundation13_NSBridgeableP", "init"]
+- !private ["10Foundation13_NSBridgeableP", "remove"]
+- !private ["10Foundation13_NSBridgeableP", "removeLast"]
+- !private ["10Foundation13_NSBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "max"]
+- !private ["s21_ObjectiveCBridgeableP", "min"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "removeLast"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s14_StringElementP", "init"]
+- !private ["s14_StringElementP", "max"]
+- !private ["s14_StringElementP", "min"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "Sa"
+- !private "s13ArrayProtocolP"
+- "SK"
+- !private "SB"
+- !private "Sz"
+- !private "Sb"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- "Sl"
+- "SL"
+- !private "s13DecodingErrorO7ContextV"
+- !private "s13EncodingErrorO7ContextV"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "s7DecoderP"
+- !private "s13DecodingErrorO"
+- "SD"
+- !private "Sd"
+- "SE"
+- "s7EncoderP"
+- !private "s13EncodingErrorO"
+- "SQ"
+- !private "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "Sf"
+- !private "SF"
+- "SH"
+- !private "s6HasherV"
+- !private "Si"
+- !private "s5Int16V"
+- !private "s5Int32V"
+- !private "s5Int64V"
+- !private "s4Int8V"
+- "7Cheetah9JSONArrayV"
+- "7Cheetah11JSONDecoderC"
+- "7Cheetah11JSONEncoderC"
+- !private "7Cheetah10JSONObjectV"
+- !private "s22KeyedDecodingContainerV"
+- "s30KeyedDecodingContainerProtocolP"
+- !private "s22KeyedEncodingContainerV"
+- "s30KeyedEncodingContainerProtocolP"
+- !private "10Foundation14LocalizedErrorP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "10Foundation8NSCodingP"
+- !private "10Foundation9NSCopyingP"
+- !private "10Foundation6NSNullC"
+- !private "10Foundation8NSObjectC"
+- !private "10Foundation16NSObjectProtocolP"
+- !private "10Foundation14NSSecureCodingP"
+- !private "Sj"
+- !private "Sk"
+- "Sm"
+- "SY"
+- "ST"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- "s28SingleValueDecodingContainerP"
+- "s28SingleValueEncodingContainerP"
+- !private "s12StaticStringV"
+- !private "Sx"
+- "SS"
+- "Sy"
+- "7Cheetah12_JSONDecoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO"
+- "7Cheetah12_JSONEncoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO"
+- "7Cheetah12_JSONDecoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO"
+- "7Cheetah12_JSONEncoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO"
+- "7Cheetah12_JSONDecoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO"
+- "7Cheetah12_JSONEncoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO"
+- "7Cheetah12_JSONDecoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO"
+- "7Cheetah12_JSONEncoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO"
+- "7Cheetah12_JSONDecoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO"
+- "7Cheetah12_JSONEncoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO"
+- "7Cheetah12_JSONDecoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO"
+- "7Cheetah12_JSONEncoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO"
+- "7Cheetah12_JSONDecoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO"
+- "7Cheetah12_JSONEncoder33_A690C75CEC5E87B54BA53091D9FC8DB9LLC6TargetO"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "Su"
+- !private "s6UInt16V"
+- !private "s6UInt32V"
+- !private "s5UInt8V"
+- "s24UnkeyedDecodingContainerP"
+- "s24UnkeyedEncodingContainerP"
+- !private "SU"
+- "7Cheetah5ValueP"
+- !private "s18_BitwiseOperationsP"
+- "10Foundation13_CFBridgeableP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation13_NSBridgeableP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s14_StringElementP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/perfectbuild/.build/checkouts/Perfect-COpenSSL-Linux.git--1861912504770719538/Sources/COpenSSL/module.modulemap"
+interface-hash: "aa9eacd4a7498ab6d50dd73992ea13ec"

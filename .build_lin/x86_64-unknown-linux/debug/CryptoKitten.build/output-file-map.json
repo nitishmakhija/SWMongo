@@ -1,0 +1,65 @@
+{
+  "": {
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/master.swiftdeps"
+  },
+  "/perfectbuild/Sources/CryptoKitten/HMAC.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/HMAC.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/HMAC.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/HMAC~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/HMAC.swiftdeps"
+  },
+  "/perfectbuild/Sources/CryptoKitten/Hash.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/Hash.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/Hash.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/Hash~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/Hash.swiftdeps"
+  },
+  "/perfectbuild/Sources/CryptoKitten/Helpers.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/Helpers.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/Helpers.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/Helpers~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/Helpers.swiftdeps"
+  },
+  "/perfectbuild/Sources/CryptoKitten/MD5.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/MD5.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/MD5.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/MD5~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/MD5.swiftdeps"
+  },
+  "/perfectbuild/Sources/CryptoKitten/PBKDF2_HMAC.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/PBKDF2_HMAC.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/PBKDF2_HMAC.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/PBKDF2_HMAC~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/PBKDF2_HMAC.swiftdeps"
+  },
+  "/perfectbuild/Sources/CryptoKitten/SHA1.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/SHA1.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/SHA1.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/SHA1~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/SHA1.swiftdeps"
+  },
+  "/perfectbuild/Sources/CryptoKitten/SHA2_32Base.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/SHA2_32Base.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/SHA2_32Base.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/SHA2_32Base~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/SHA2_32Base.swiftdeps"
+  },
+  "/perfectbuild/Sources/CryptoKitten/SHA2_32Implementations.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/SHA2_32Implementations.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/SHA2_32Implementations.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/SHA2_32Implementations~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/SHA2_32Implementations.swiftdeps"
+  },
+  "/perfectbuild/Sources/CryptoKitten/SHA2_64Base.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/SHA2_64Base.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/SHA2_64Base.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/SHA2_64Base~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/SHA2_64Base.swiftdeps"
+  },
+  "/perfectbuild/Sources/CryptoKitten/SHA2_64Implementations.swift": {
+    "dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/SHA2_64Implementations.d",
+    "object": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/SHA2_64Implementations.swift.o",
+    "swiftmodule": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/SHA2_64Implementations~partial.swiftmodule",
+    "swift-dependencies": "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.build/SHA2_64Implementations.swiftdeps"
+  }
+}

@@ -1,0 +1,222 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "4BSON8DocumentV"
+provides-member:
+- ["4BSON8DocumentV", ""]
+depends-top-level:
+- !private "=="
+- !private "??"
+- "AssignmentPrecedence"
+- !private "BooleanLiteralType"
+- "Collection"
+- "CustomDebugStringConvertible"
+- "DBRef"
+- "Document"
+- !private "ObjectId"
+- "String"
+- !private "StringLiteralType"
+depends-member:
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["Sl", "DBRef"]
+- !private ["Sl", "ObjectId"]
+- ["Sl", "debugDescription"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["11MongoKitten10CollectionC", "insert"]
+- !private ["Sl", "makeExtendedJSON"]
+- !private ["Sl", "subscript"]
+- !private ["11MongoKitten10CollectionC", "update"]
+- !private ["11MongoKitten19CollectionQueryableP", "insert"]
+- !private ["11MongoKitten19CollectionQueryableP", "update"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "DBRef"]
+- !private ["s28CustomDebugStringConvertibleP", "ObjectId"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "makeExtendedJSON"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insert"]
+- !private ["s23CustomStringConvertibleP", "update"]
+- !private ["11MongoKitten5DBRefV", "init"]
+- !private ["Se", "DBRef"]
+- !private ["Se", "ObjectId"]
+- ["Se", "debugDescription"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "makeExtendedJSON"]
+- !private ["Se", "subscript"]
+- ["4BSON8DocumentV", "Collection"]
+- ["4BSON8DocumentV", "DBRef"]
+- !private ["4BSON8DocumentV", "ObjectId"]
+- ["4BSON8DocumentV", "String"]
+- ["4BSON8DocumentV", "append"]
+- ["4BSON8DocumentV", "debugDescription"]
+- ["4BSON8DocumentV", "deinit"]
+- !private ["4BSON8DocumentV", "makeExtendedJSON"]
+- !private ["4BSON8DocumentV", "subscript"]
+- ["4BSON8DocumentV", "upsert"]
+- !private ["SE", "DBRef"]
+- !private ["SE", "ObjectId"]
+- ["SE", "debugDescription"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "makeExtendedJSON"]
+- !private ["SE", "subscript"]
+- !private ["SQ", "DBRef"]
+- !private ["SQ", "ObjectId"]
+- ["SQ", "debugDescription"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "makeExtendedJSON"]
+- !private ["SQ", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "DBRef"]
+- !private ["s25ExpressibleByArrayLiteralP", "ObjectId"]
+- ["s25ExpressibleByArrayLiteralP", "debugDescription"]
+- !private ["s25ExpressibleByArrayLiteralP", "makeExtendedJSON"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "DBRef"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "ObjectId"]
+- ["s30ExpressibleByDictionaryLiteralP", "debugDescription"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "makeExtendedJSON"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "DBRef"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "ObjectId"]
+- ["11MongoKitten23ExpressionRepresentableP", "debugDescription"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "init"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "init"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "makeExtendedJSON"]
+- !private ["11MongoKitten23ExpressionRepresentableP", "subscript"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["4BSON8ObjectIdV", "init"]
+- !private ["4BSON9PrimitiveP", "DBRef"]
+- !private ["4BSON9PrimitiveP", "ObjectId"]
+- ["4BSON9PrimitiveP", "debugDescription"]
+- !private ["4BSON9PrimitiveP", "init"]
+- !private ["4BSON9PrimitiveP", "init"]
+- !private ["4BSON9PrimitiveP", "makeExtendedJSON"]
+- !private ["4BSON9PrimitiveP", "subscript"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["ST", "DBRef"]
+- !private ["ST", "ObjectId"]
+- ["ST", "debugDescription"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "makeExtendedJSON"]
+- !private ["ST", "subscript"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["4BSON23SubscriptExpressionTypeP", "init"]
+- !private ["4BSON23SubscriptExpressionTypeP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["7Cheetah5ValueP", "init"]
+- !private ["7Cheetah5ValueP", "init"]
+- !private ["7Cheetah5ValueP", "serializedString"]
+- !private ["11MongoKitten16ValueConvertibleP", "init"]
+- !private ["10Foundation13_CFBridgeableP", "init"]
+- !private ["10Foundation13_CFBridgeableP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation13_NSBridgeableP", "init"]
+- !private ["10Foundation13_NSBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "SK"
+- "Sl"
+- !private "11MongoKitten10CollectionC"
+- !private "Sl"
+- !private "11MongoKitten10CollectionC"
+- !private "11MongoKitten19CollectionQueryableP"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "11MongoKitten5DBRefV"
+- "Se"
+- "4BSON8DocumentV"
+- "SE"
+- "SQ"
+- "s25ExpressibleByArrayLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "11MongoKitten23ExpressionRepresentableP"
+- !private "SH"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "4BSON8ObjectIdV"
+- "4BSON9PrimitiveP"
+- !private "Sm"
+- "ST"
+- !private "SS"
+- !private "Sy"
+- !private "4BSON23SubscriptExpressionTypeP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "7Cheetah5ValueP"
+- !private "11MongoKitten16ValueConvertibleP"
+- !private "10Foundation13_CFBridgeableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "10Foundation13_NSBridgeableP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/BSON.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/ExtendedJSON.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/GeoJSON.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Glibc.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/Cheetah.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Dispatch.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/CryptoKitten.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Foundation.swiftmodule"
+- "/perfectbuild/.build/x86_64-unknown-linux/debug/MongoSocket.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/Swift.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/swift-4.2.1-RELEASE-ubuntu16.04/usr/lib/swift/linux/x86_64/glibc.modulemap"
+- "/perfectbuild/.build/checkouts/Perfect-COpenSSL-Linux.git--1861912504770719538/Sources/COpenSSL/module.modulemap"
+interface-hash: "a790449e008f95dc115b0514925fe3cf"
