@@ -1,6 +1,0 @@
-version: "Swift version 4.2.1 (swift-4.2.1-RELEASE)"
-options: "00be595c509c8aaa8d7dec586995dd99"
-build_time: [1560261548, 886495300]
-inputs:
-  "/perfectbuild/Sources/ExtendedJSON/ExtendedJSON+EfficientSerialization.swift": [1560162347, 0]
-  "/perfectbuild/Sources/ExtendedJSON/ExtendedJSON.swift": [1560240231, 0]
